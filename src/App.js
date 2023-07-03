@@ -6,7 +6,9 @@ import ReactDOM from 'react-dom'
 
 import NavigationBar from "./components/NavigationBar";
 import HomePage from "./routes/HomePage";
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
          
           <Route path="*" element={<h1>404 Page Not Found</h1>} />
+
+          <Route path="/contact" element={<Contact />} />
 
         </Routes>
 

@@ -1,12 +1,19 @@
 
+
+
 const HomePage = () => {
 
   return (
 
     <>
-      <h2>
-        Hi, this is the content of the homepage!
-      </h2>
+      <h5>
+        🙋‍♀️ Hi, thanks for stopping by!
+      </h5>
+      <h1>
+        I'm Shamayal Syed
+      </h1>
+
+     
 
     </>
 
