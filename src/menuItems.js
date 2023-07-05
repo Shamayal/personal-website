@@ -1,55 +1,54 @@
+// homepage will have my name, the typewriter effect, my skills, links, about me
+// projects
+// resume
+// Food Blog
+// Book Reviews
+// Photography/Video 
+// Contact Me
+
 export const menuItems = [
   {
     title: 'Home',
     url: '/',
   },
   {
-    title: 'About Me',
+    title: 'Projects',
+    url: '/projects',
+  },
+  {
+    title: 'Resume',
+    url: '/resume',
+  },
+  {
+    title: 'Blog',
+    url: '/blog',
+  },
+  {
+    title: 'Hobbies',
     url: '',
     submenu: [
       {
-        title: 'SubHeading',
+        title: 'Photography',
         submenu: [
           {
-            title: 'Content 1',
-            url: '/money/income/add',
+            title: 'Ma Ze Dar Creations',
+            url: '/hobbies/photography/food',
           },
           {
-            title: 'Content 2',
-            url: 'money/income/view',
+            title: 'Travel',
+            url: '/hobbies/photography/travel',
           }
         ]
       },
       {
-        title: 'SubHeading 2',
-      }
-    ]
-  },
-  {
-    title: 'My Skills',
-    url: '',
-  },
-  {
-    title: 'My Projects',
-    url: '',
-  },
-  {
-    title: 'Other',
-    url: '',
-    submenu: [
-      {
-        title: 'Ma Ze Dar Creations',
-        url: '/learn/money'
-      },
-      {
         title: 'Book Reviews',
-        url: '/learn/finance'
+        url: '/books'
       }
     ]
   },
   {
     title: 'Contact Me',
-    url: '',
+    url: '/contact',
   }
 ];
 

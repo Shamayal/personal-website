@@ -9,6 +9,7 @@ import HomePage from "./routes/HomePage";
 import Footer from "./components/Footer";
 
 import Contact from "./components/Contact";
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -18,10 +19,13 @@ function App() {
       <Router>
 
         <NavigationBar />
+        
         <Routes>
           <Route path="/" element={<HomePage />} />
          
           <Route path="*" element={<h1>404 Page Not Found</h1>} />
+
+          <Route path="/projects" element={<Projects />} />
 
           <Route path="/contact" element={<Contact />} />
 
