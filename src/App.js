@@ -8,8 +8,9 @@ import NavigationBar from "./components/NavigationBar";
 import HomePage from "./routes/HomePage";
 import Footer from "./components/Footer";
 
-import Contact from "./components/Contact";
+import Skills from "./components/Skills";
 import Projects from './components/Projects';
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
          
           <Route path="*" element={<h1>404 Page Not Found</h1>} />
+
+          <Route path="/skills" element={<Skills />} />
 
           <Route path="/projects" element={<Projects />} />
 
