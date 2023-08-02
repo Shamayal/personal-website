@@ -1,10 +1,11 @@
 // homepage will have my name, the typewriter effect, my skills, links, about me
+// skills: on homepage
 // projects
 // resume
 // Food Blog
 // Book Reviews
 // Photography/Video 
-// Contact Me
+// Contact Me: on homepage
 
 export const menuItems = [
   {
