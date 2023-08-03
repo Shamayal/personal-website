@@ -10,10 +10,13 @@ const HomePage = () => {
       <h5>
         🙋‍♀️ Hi, thanks for stopping by!
       </h5>
+
       <h1>
         I'm Shamayal Syed
       </h1>
+
       <TypewriterComponent />
+      
       <h5>
         View my 
         <a href='https://flowcv.com/resume/74ec7glopg' target="_blank" rel="noopener noreferrer">
