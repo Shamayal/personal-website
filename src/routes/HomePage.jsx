@@ -1,8 +1,12 @@
 import Skills from "../components/Skills";
 import About from "../components/About";
 import TypewriterComponent from "../typewriter"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin , faMedium } from '@fortawesome/free-brands-svg-icons';
+
+import LinkedIn from "../media/LinkedIn.png";
+import Email from "../media/Email.png";
+import GitHub from "../media/GitHub.png";
+import Medium from "../media/Medium.png";
+
 
 const HomePage = () => {
 
@@ -19,23 +23,20 @@ const HomePage = () => {
 
       <TypewriterComponent />
 
-      <h5>
-        View my 
+      <h3>
+        View My{' '}
         <a href='https://flowcv.com/resume/74ec7glopg' target="_blank" rel="noopener noreferrer">
-        resume
+        Resume
         </a>
-      </h5>
+      </h3>
 
-      <FontAwesomeIcon icon={faLinkedin} />
+      <img src={LinkedIn} />
 
-      <FontAwesomeIcon icon={faMedium} />
-  
-      <h5>
-        linkedIn
-        github
-        medium
-        email
-      </h5>
+      <img src={Email} />
+
+      <img src={GitHub} />
+
+      <img src={Medium} />
 
       <About />
 

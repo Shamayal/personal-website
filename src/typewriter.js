@@ -3,8 +3,7 @@ import Typewriter from 'typewriter-effect';
 
 const TypewriterComponent = () => {
   return (
-    <div>
-      <h1>Your Name</h1>
+    <h4>
       <Typewriter
         options={{
           strings: ['Full-Stack Web Developer', 'Coding Instructor', 'Blogger', 'Content Creator', 'Life-Long Learner'],
@@ -18,7 +17,7 @@ const TypewriterComponent = () => {
           cursorClassName: 'typewriter-cursor',   // Add a CSS class to the cursor element
         }}
       />
-    </div>
+    </h4>
   );
 };
 
