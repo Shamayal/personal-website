@@ -2,10 +2,10 @@ import Skills from "../components/Skills";
 import About from "../components/About";
 import TypewriterComponent from "../typewriter"
 
-import LinkedIn from "../media/LinkedIn.png";
-import Email from "../media/Email.png";
-import GitHub from "../media/GitHub.png";
-import Medium from "../media/Medium.png";
+import LinkedIn from "../media/linkedin (1).png";
+import Email from "../media/email (1).png";
+import GitHub from "../media/github (1).png";
+import Medium from "../media/medium (1).png";
 
 
 const HomePage = () => {
