@@ -6,6 +6,7 @@ import LinkedIn from "../media/linkedin (1).png";
 import Email from "../media/email (1).png";
 import GitHub from "../media/github (1).png";
 import Medium from "../media/medium (1).png";
+import headshot from "../media/headshot.png";
 
 
 const HomePage = () => {
