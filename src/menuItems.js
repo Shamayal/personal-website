@@ -5,7 +5,7 @@
 // Food Blog
 // Book Reviews
 // Photography/Video 
-// Contact Me: on homepage
+// Contact Me
 
 export const menuItems = [
   {
