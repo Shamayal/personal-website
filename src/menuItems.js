@@ -5,7 +5,7 @@
 // Food Blog
 // Book Reviews
 // Photography/Video 
-// Contact Me
+// Contact Meg
 
 export const menuItems = [
   {
