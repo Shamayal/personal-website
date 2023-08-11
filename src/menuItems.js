@@ -55,5 +55,9 @@ export const menuItems = [
     title: 'Contact Me',
     url: '/contact',
   }
+  {
+    title: 'Extra',
+    url: '/contact',
+  }
 ];
 
