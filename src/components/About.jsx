@@ -20,8 +20,7 @@ const About = () => {
       My varied background has equipped me with the adaptability necessary to thrive in different environments and industries. I have successfully transitioned between diverse sectors, which has provided me with a well-rounded skill set. This adaptability enables me to quickly acclimate to new project requirements, collaborate effectively with cross-functional teams, and bring fresh insights to web development projects.
       <br />    
       <br />  
-      🍰 In my free time, I enjoy baking pastries, and other confections which I document on my food blog.
-      
+      🍰 In my free time, I enjoy baking pastries, and other confections which I document on my food blog, Ma Ze Dar Creations.
     </h5>
     </div>
   )
