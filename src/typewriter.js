@@ -6,7 +6,7 @@ const TypewriterComponent = () => {
     <h4>
       <Typewriter
         options={{
-          strings: ['Full-Stack Web Developer', 'Coding Instructor', 'Blogger', 'Content Creator', 'Life-Long Learner'],
+          strings: ['Full-Stack Web Developer', 'Coding Instructor', 'Blogger', 'Baker', 'Life-Long Learner'],
           autoStart: true,
           loop: true,
           delay: 50,           // Adjust the delay between each character (in milliseconds)

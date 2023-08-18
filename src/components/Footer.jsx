@@ -21,6 +21,7 @@ const Footer = () => {
         </div>
         <div className="footer-copyright font-quicksand">
           <h6>© 2023: My Personal Website, Inc. All rights reserved.</h6>
+          <p>Coded and Designed by Shamayal Syed 👩‍💻</p>
         </div>
       </div>
     </footer>

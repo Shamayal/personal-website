@@ -12,7 +12,7 @@ const NavigationBar = () => {
       <ul className="menus">
 
         <div>
-          <li><strong>My Personal Website</strong></li>
+          <li><strong>Shamayal Syed</strong></li>
         </div>
 
         <div className="menu-items-container font-quicksand">

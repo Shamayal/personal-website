@@ -4,9 +4,8 @@ const Books = () => {
   
   return (
     <div>
-      <h1>
-        This is my books page.
-      </h1>
+      <h1>Book Reviews</h1>
+      <h2>July 2023</h2>
     </div>
   )
 }

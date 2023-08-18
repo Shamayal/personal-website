@@ -47,7 +47,7 @@ export const menuItems = [
       },
       {
         title: 'Book Reviews',
-        url: '/books'
+        url: '/hobbies/books'
       }
     ]
   },
