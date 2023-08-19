@@ -4,56 +4,55 @@
 // resume
 // Food Blog
 // Book Reviews
-// Photography/Video 
+// Photography/Video
 // Contact Meg
 
 export const menuItems = [
   {
-    title: 'Home',
-    url: '/',
+    title: "Home",
+    url: "/",
   },
   {
-    title: 'Skills',
-    url: '/skills',
+    title: "Skills",
+    url: "/skills",
   },
   {
-    title: 'Projects',
-    url: '/projects',
+    title: "Projects",
+    url: "/projects",
   },
   {
-    title: 'Resume',
-    url: '/resume',
+    title: "Resume",
+    url: "/resume",
   },
   {
-    title: 'Blog',
-    url: '/blog',
+    title: "Blog",
+    url: "/blog",
   },
   {
-    title: 'Hobbies',
-    url: '',
+    title: "Hobbies",
+    url: "",
     submenu: [
       {
-        title: 'Photography',
+        title: "Photography",
         submenu: [
           {
-            title: 'Ma Ze Dar Creations',
-            url: '/hobbies/photography/food',
+            title: "Ma Ze Dar Creations",
+            url: "/hobbies/photography/food",
           },
           {
-            title: 'Travel',
-            url: '/hobbies/photography/travel',
-          }
-        ]
+            title: "Travel",
+            url: "/hobbies/photography/travel",
+          },
+        ],
       },
       {
-        title: 'Book Reviews',
-        url: '/hobbies/books'
-      }
-    ]
+        title: "Book Reviews",
+        url: "/hobbies/books",
+      },
+    ],
   },
   {
-    title: 'Contact Me',
-    url: '/contact',
-  }
+    title: "Contact Me",
+    url: "/contact",
+  },
 ];
-
