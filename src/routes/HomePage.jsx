@@ -2,6 +2,8 @@ import Skills from "../components/Skills";
 import About from "../components/About";
 import TypewriterComponent from "../typewriter";
 
+import "../styles/fonts.css";
+
 import LinkedIn from "../media/LinkedIn.png";
 import Email from "../media/Email.png";
 import GitHub from "../media/GitHub.png";
@@ -16,7 +18,9 @@ const HomePage = () => {
     <>
       <h5>🙋‍♀️ Hi, thanks for stopping by!</h5>
 
-      <h1>I'm Shamayal Syed</h1>
+      <div style={{ fontFamily: "Dancing Script, cursive" }}>
+        <h1>I'm Shamayal Syed</h1>
+      </div>
 
       <TypewriterComponent />
 
