@@ -1,3 +1,46 @@
-/* body {
+body {
   margin: 50px;
-} */
+  /* background-color: #F5DEB3; */
+  /* background: linear-gradient(0deg, rgb(250, 177, 113) 10%, rgba(0,0,0,0.4) 130%); */
+
+}
+
+
+.intro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name-heading {
+  color: #05AECB;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  font-size: 100px;
+  line-height: 60px;
+}
+
+.resume-button {
+  display: inline-block;
+  background-color: #05AECB;
+  color: #FFFFFF;
+  padding: 4px 20px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.resume-button a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.resume-button:hover {
+  background-color: #d37502c1;
+}
+
+.resume-button h3 {
+  margin: 0; /* Remove default margin for <h3> */
+}
+

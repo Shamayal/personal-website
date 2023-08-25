@@ -21,10 +21,6 @@ export const menuItems = [
     url: "/projects",
   },
   {
-    title: "Resume",
-    url: "/resume",
-  },
-  {
     title: "Blog",
     url: "/blog",
   },

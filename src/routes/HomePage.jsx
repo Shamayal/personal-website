@@ -16,41 +16,43 @@ import "../styles/HomePage.css";
 const HomePage = () => {
   return (
     <>
-      <h5>🙋‍♀️ Hi, thanks for stopping by!</h5>
+      <div class="intro">
+        <h5>🙋‍♀️ Hi, thanks for stopping by!</h5>
 
-      <div style={{ fontFamily: "Dancing Script, cursive" }}>
-        <h1>I'm Shamayal Syed</h1>
-      </div>
+        <div style={{ fontFamily: "Dancing Script, cursive" }}>
+          <h1 class="name-heading">Shamayal Syed</h1>
+        </div>
 
-      <TypewriterComponent />
+        <TypewriterComponent />
 
-      <h3>
-        View My{" "}
         <a
+          class="resume-button"
           href="https://flowcv.com/resume/74ec7glopg"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Resume
-        </a>
-      </h3>
-
-      <div>
-        <a href="https://www.linkedin.com/in/shamayal-syed/" target="_blank">
-          <img src={LinkedIn} height="100px" alt="LinkedIn" />
+          <div>
+            <h3>My Resume</h3>
+          </div>
         </a>
 
-        <a href="mailto:shamayal.syed@outlook.com" target="_blank">
-          <img src={Email} height="100px" alt="Email" />
-        </a>
+        <div>
+          <a href="https://www.linkedin.com/in/shamayal-syed/" target="_blank">
+            <img src={LinkedIn} height="100px" alt="LinkedIn" />
+          </a>
 
-        <a href="https://github.com/Shamayal" target="_blank">
-          <img src={GitHub} height="100px" alt="GitHub" />
-        </a>
+          <a href="mailto:shamayal.syed@outlook.com" target="_blank">
+            <img src={Email} height="100px" alt="Email" />
+          </a>
 
-        <a href="https://medium.com/@shamayal" target="_blank">
-          <img src={Medium} height="100px" alt="Medium" />
-        </a>
+          <a href="https://github.com/Shamayal" target="_blank">
+            <img src={GitHub} height="100px" alt="GitHub" />
+          </a>
+
+          <a href="https://medium.com/@shamayal" target="_blank">
+            <img src={Medium} height="100px" alt="Medium" />
+          </a>
+        </div>
       </div>
     </>
   );
