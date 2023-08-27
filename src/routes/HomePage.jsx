@@ -38,19 +38,19 @@ const HomePage = () => {
 
         <div>
           <a href="https://www.linkedin.com/in/shamayal-syed/" target="_blank">
-            <img src={LinkedIn} height="100px" alt="LinkedIn" />
+            <img src={LinkedIn} height="80px" alt="LinkedIn" />
           </a>
 
           <a href="mailto:shamayal.syed@outlook.com" target="_blank">
-            <img src={Email} height="100px" alt="Email" />
+            <img src={Email} height="80px" alt="Email" />
           </a>
 
           <a href="https://github.com/Shamayal" target="_blank">
-            <img src={GitHub} height="100px" alt="GitHub" />
+            <img src={GitHub} height="80px" alt="GitHub" />
           </a>
 
           <a href="https://medium.com/@shamayal" target="_blank">
-            <img src={Medium} height="100px" alt="Medium" />
+            <img src={Medium} height="80px" alt="Medium" />
           </a>
         </div>
       </div>
