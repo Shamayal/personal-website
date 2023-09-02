@@ -1,15 +1,12 @@
 // import "../styles/Footer.css";
 
 const Footer = () => {
-
   return (
     <footer>
       <div className="footer-container">
         <div className="footer-links">
           <ul className="links font-quicksand">
-            <li>
-                Home
-            </li>
+            <li>Home</li>
             <li>About Us</li>
             <li>FAQ</li>
             <li>Contact Us</li>
