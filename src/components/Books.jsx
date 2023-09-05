@@ -6,6 +6,7 @@ const Books = () => {
     <div>
       <h1>Book Reviews</h1>
       <h2>July 2023</h2>
+      <h2>August 2023</h2>
     </div>
   )
 }
