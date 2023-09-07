@@ -20,7 +20,7 @@ function App() {
       <Router>
 
         <NavigationBar />
-        
+
         <Routes>
           <Route path="/" element={<HomePage />} />
          

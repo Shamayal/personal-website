@@ -36,21 +36,22 @@ const HomePage = () => {
           </div>
         </a>
 
-        <div>
+        <div class="icon-container">
           <a href="https://www.linkedin.com/in/shamayal-syed/" target="_blank">
-            <img src={LinkedIn} height="80px" alt="LinkedIn" />
-          </a>
-
-          <a href="mailto:shamayal.syed@outlook.com" target="_blank">
-            <img src={Email} height="80px" alt="Email" />
+            <img
+              class="icon-link"
+              src={LinkedIn}
+              height="80px"
+              alt="LinkedIn"
+            />
           </a>
 
           <a href="https://github.com/Shamayal" target="_blank">
-            <img src={GitHub} height="80px" alt="GitHub" />
+            <img class="icon-link" src={GitHub} height="80px" alt="GitHub" />
           </a>
 
           <a href="https://medium.com/@shamayal" target="_blank">
-            <img src={Medium} height="80px" alt="Medium" />
+            <img class="icon-link" src={Medium} height="80px" alt="Medium" />
           </a>
         </div>
       </div>
