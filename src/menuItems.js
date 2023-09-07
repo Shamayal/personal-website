@@ -9,7 +9,7 @@
 
 export const menuItems = [
   {
-    title: "Home",
+    title: "About",
     url: "/",
   },
   {
@@ -48,7 +48,7 @@ export const menuItems = [
     ],
   },
   {
-    title: "Contact Me",
+    title: "Contact",
     url: "/contact",
   },
 ];

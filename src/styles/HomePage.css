@@ -1,13 +1,16 @@
 body {
   /* margin: 50px; */
-  /* background-color: #F5DEB3; */
-  /* background: linear-gradient(0deg, rgb(250, 177, 113) 10%, rgba(0,0,0,0.4) 130%); */
+
 }
 
-/* Styles for LinkedIn, GitHub, and Medium icons */
-.icon-link:hover {
-  transform: scale(1.2); /* Increase the size on hover */
-  transition: filter 0.3s, transform 0.3s; /* Add a smooth transition effect */
+.icon-container img {
+  height: 60px;
+  margin: 40px;
+}
+
+.icon-container img:hover {
+  transform: scale(1.5); /* Increase the size on hover */
+  transition: filter 0.9s, transform 0.5s; /* Add a smooth transition effect */
   filter: grayscale(100%);
 }
 
@@ -43,7 +46,9 @@ body {
 }
 
 .resume-button:hover {
-  background-color: #d37502c1;
+  transform: scale(1.5); /* Increase the size on hover */
+  transition: filter 0.9s, transform 0.5s; /* Add a smooth transition effect */
+  filter: grayscale(100%);
 }
 
 .resume-button h3 {
