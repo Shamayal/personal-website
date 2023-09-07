@@ -11,12 +11,13 @@ const TypewriterComponent = () => {
             "Coding Instructor",
             "Blogger",
             "Baker",
-            "Life-Long Learner",
+            "Amateur Photographer",
+            "Life-Long Learner"
           ],
           autoStart: true,
           loop: true,
           delay: 50, // Adjust the delay between each character (in milliseconds)
-          deleteSpeed: 40, // Adjust the speed of characters being deleted (in milliseconds)
+          deleteSpeed: 60, // Adjust the speed of characters being deleted (in milliseconds)
           pauseFor: 2000, // Adjust the pause time before starting the next string (in milliseconds)
           cursor: "|", // Change the cursor character (set to false to hide the cursor)
           wrapperClassName: "typewriter-wrapper", // Add a CSS class to the wrapper element
