@@ -1,9 +1,10 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
+import "./styles/fonts.css"
 
 const TypewriterComponent = () => {
   return (
-    <h4>
+    <h2 className="poppins-400-font">
       <Typewriter
         options={{
           strings: [
@@ -24,7 +25,7 @@ const TypewriterComponent = () => {
           cursorClassName: "typewriter-cursor", // Add a CSS class to the cursor element
         }}
       />
-    </h4>
+    </h2>
   );
 };
 
