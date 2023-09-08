@@ -1,20 +1,11 @@
-// homepage will have my name, the typewriter effect, my skills, links, about me
-// skills: on homepage
-// projects
-// resume
-// Food Blog
-// Book Reviews
-// Photography/Video
-// Contact Meg
-
 export const menuItems = [
   {
     title: "About",
-    url: "/",
+    url: "/#about",
   },
   {
     title: "Skills",
-    url: "/skills",
+    url: "/#skills",
   },
   {
     title: "Projects",
@@ -49,6 +40,6 @@ export const menuItems = [
   },
   {
     title: "Contact",
-    url: "/contact",
+    url: "/#contact",
   },
 ];
