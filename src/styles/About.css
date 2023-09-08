@@ -1,0 +1,18 @@
+#about {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-container img {
+  height: 500px;
+  border-radius: 10%;
+}
+
+.about-text {
+  margin-right: 50px;
+}
