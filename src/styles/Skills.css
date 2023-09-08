@@ -1,0 +1,24 @@
+#skills {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-container-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-img {
+  height: 45px;
+}
