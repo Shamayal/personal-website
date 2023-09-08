@@ -10,6 +10,8 @@ import Footer from "./components/Footer";
 
 import Skills from "./components/Skills";
 import Projects from './components/Projects';
+import Blog from "./components/Blog"
+import Books from "./components/Books";
 import Contact from "./components/Contact";
 
 function App() {
@@ -29,6 +31,14 @@ function App() {
           <Route path="/skills" element={<Skills />} />
 
           <Route path="/projects" element={<Projects />} />
+
+          <Route path="/blog" element={<Blog />} />
+
+          <Route path="/hobbies/photography/food" element={<Books />} />
+
+          <Route path="/hobbies/photography/travel" element={<Books />} />
+
+          <Route path="/hobbies/books" element={<Books />} />
 
           <Route path="/contact" element={<Contact />} />
 
