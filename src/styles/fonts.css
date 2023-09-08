@@ -1,1 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;600;800&display=swap');
+
+.montserrat-400-font {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.poppins-400-font {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.poppins-600-font {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.poppins-800-font {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  text-decoration: underline;
+  text-underline-position: under; 
+  text-underline-offset: 4px;
+  text-decoration-color: #05AECB;
+  text-decoration-thickness: 5px; 
+}

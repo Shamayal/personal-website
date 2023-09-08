@@ -1,11 +1,43 @@
-body {
-  /* margin: 50px; */
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
 
+.intro-content {
+  flex: -1;
+  position: relative;
+}
+
+.intro-content img {
+  padding-top: 4em;
+}
+
+.intro-content h2 {
+  position: absolute;
+  top: 10%; /* Adjust this value as needed to vertically center the text */
+  left: 34.9%; /* Adjust this value as needed to horizontally center the text */
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Ensure the text appears above the image */
+}
+
+.intro-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3em;
+  margin-bottom: 1em;
 }
 
 .icon-container img {
-  height: 60px;
-  margin: 40px;
+  height: 50px;
 }
 
 .icon-container img:hover {
@@ -14,34 +46,22 @@ body {
   filter: grayscale(100%);
 }
 
-
-.intro {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.name-heading {
-  color: #05AECB;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  font-size: 100px;
-  line-height: 60px;
-}
-
 .resume-button {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   background-color: #05AECB;
   color: #FFFFFF;
-  padding: 4px 20px;
+  padding: 5px 20px;
   border-radius: 15px;
   text-align: center;
-  text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
+  width: 6.5em; /* Add this property to control the width */
+  margin: 1em;
+  align-self: center;
 }
 
 .resume-button a {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -52,6 +72,11 @@ body {
 }
 
 .resume-button h3 {
-  margin: 0; /* Remove default margin for <h3> */
+  margin: 0em; /* Remove default margin for <h3> */
 }
 
+.typewriter {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
