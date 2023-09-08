@@ -3,7 +3,8 @@
 const Projects = () => {
   return (
     <div>
-      <h1>My Projects</h1>
+      <p className="poppins-400-font">GET TO KNOW ME</p>
+      <h2 className="poppins-800-font">My Projects</h2>
 
       <h2>Frog Finance</h2>
       <p>Tech Stack: React, Node.js, PostgreSQL, Tailwind, CSS</p>

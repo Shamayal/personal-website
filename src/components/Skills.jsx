@@ -1,4 +1,5 @@
-// import "../../../styles/income.css"
+import "../styles/Skills.css";
+
 import JS from "../media/JavaScript Logo - Dark.png";
 import HTML from "../media/HTML Logo - Dark.png";
 import CSS from "../media/CSS Logo - Dark.png";
@@ -31,85 +32,112 @@ import Chai from "../media/Chai Logo - Dark.png";
 import Git from "../media/Git Logo - Dark.png";
 
 const Skills = () => {
+  const languages = [
+    { name: 'JavaScript ES6', imgSrc: JS },
+    { name: 'HTML5', imgSrc: HTML },
+    { name: 'CSS3', imgSrc: CSS },
+    { name: 'Ruby', imgSrc: Ruby },
+    { name: 'Python', imgSrc: Python },
+  ];
+  
+  const frameworksAndLibraries = [
+    { name: "Node.js", imgSrc: NodeJS },
+    { name: "React", imgSrc: React },
+    { name: "Ruby on Rails", imgSrc: RubyonRails },
+    { name: "Bootstrap", imgSrc: Bootstrap },
+    { name: "Tailwind CSS", imgSrc: Tailwind },
+    { name: "Express", imgSrc: Express },
+    { name: "jQuery", imgSrc: jQuery },
+    { name: "Sass", imgSrc: Sass },
+    { name: "AJAX (Asynchronous JavaScript And XML)", imgSrc: AJAX },
+    { name: "Embedded JavaScript", imgSrc: EJS },
+  ];
+
+  const databases = [
+    { name: 'PostgreSQL', imgSrc: PSQL },
+  ];
+
+  const designTools = [
+    { name: 'Figma', imgSrc: Figma },
+    { name: 'Adobe Photoshop', imgSrc: Photoshop },
+    { name: 'Adobe Lightroom', imgSrc: Lightroom },
+    { name: 'Canva', imgSrc: Canva },
+  ];
+
+  const testingTools = [
+    { name: 'Cypress', imgSrc: Cypress },
+    { name: 'Jest', imgSrc: Jest },
+    { name: 'Mocha', imgSrc: Mocha },
+    { name: 'Chai', imgSrc: Chai },
+  ];
+
+  const versionControl = [
+    { name: 'Git', imgSrc: Git },
+  ];
+
   return (
     <div>
-      <h1>This is my skills page.</h1>
+      <p className="poppins-400-font">MY TECHNICAL ABILITIES</p>
+      <h1 className="poppins-800-font">Skills</h1>
 
-      <h2>Languages</h2>
-      <div>
-        <div>
-          <img src={JS} height="60px" alt="" />
-          <p>JavaScript ES6</p>
-        </div>
-
-        <img src={HTML} height="60px" alt="" />
-        <p>HTML5</p>
-        <img src={CSS} height="60px" alt="" />
-        <p>CSS3</p>
-        <img src={Ruby} height="60px" alt="" />
-        <p>Ruby</p>
-        <img src={Python} height="60px" alt="" />
-        <p>Python</p>
+      <h2 className="poppins-600-font">Languages</h2>
+      <div className="skills-container">
+        {languages.map((item) => (
+          <div class="skills-container-item" key={item.name}>
+            <img src={item.imgSrc} alt={item.name} className="skills-img" />
+            <p className="montserrat-400-font">{item.name}</p>
+          </div>
+        ))}
       </div>
 
-      <h2>Databases</h2>
-      <div>
-        <img src={PSQL} height="60px" alt="" />
-        <p>PostgreSQL</p>
+      <h2 className="poppins-600-font">Databases</h2>
+      <div className="skills-container">
+        {databases.map((item) => (
+          <div class="skills-container-item" key={item.name}>
+            <img src={item.imgSrc} alt={item.name} className="skills-img" />
+            <p className="montserrat-400-font">{item.name}</p>
+          </div>
+        ))}
       </div>
 
-      <h2>Frameworks/Libraries</h2>
-      <div>
-        <img src={NodeJS} height="60px" alt="" />
-        <p>Node.js</p>
-        <img src={React} height="60px" alt="" />
-        <p>React</p>
-        <img src={RubyonRails} height="60px" alt="" />
-        <p>Ruby on Rails</p>
-        <img src={Bootstrap} height="60px" alt="" />
-        <p>Bootstrap</p>
-        <img src={Tailwind} height="60px" alt="" />
-        <p>Tailwind CSS</p>
-        <img src={Express} height="60px" alt="" />
-        <p>Express</p>
-        <img src={jQuery} height="60px" alt="" />
-        <p>jQuery</p>
-        <img src={Sass} height="60px" alt="" />
-        <p>Sass</p>
-        <img src={AJAX} height="60px" alt="" />
-        <p>AJAX (Asynchronous JavaScript And XML)</p>
-        <img src={EJS} height="60px" alt="" />
-        <p>Embedded JavaScript</p>
+      <h2 className="poppins-600-font">Frameworks/Libraries/Environments</h2>
+      <div className="skills-container">
+        {frameworksAndLibraries.map((item) => (
+          <div class="skills-container-item" key={item.name}>
+            <img src={item.imgSrc} alt={item.name} className="skills-img" />
+            <p className="montserrat-400-font">{item.name}</p>
+          </div>
+        ))}
       </div>
 
-      <h2>Design</h2>
-      <div>
-        <img src={Figma} height="60px" alt="" />
-        <p>Figma</p>
-        <img src={Photoshop} height="60px" alt="" />
-        <p>Adobe Photoshop</p>
-        <img src={Lightroom} height="60px" alt="" />
-        <p>Adobe Lightroom</p>
-        <img src={Canva} height="60px" alt="" />
-        <p>Canva</p>
+      <h2 className="poppins-600-font">Design</h2>
+      <div className="skills-container">
+        {designTools.map((item) => (
+          <div class="skills-container-item" key={item.name}>
+            <img src={item.imgSrc} alt={item.name} className="skills-img" />
+            <p className="montserrat-400-font">{item.name}</p>
+          </div>
+        ))}
       </div>
 
-      <h2>Testing</h2>
-      <div>
-        <img src={Cypress} height="60px" alt="Cypress" />
-        <p>Cypress</p>
-        <img src={Jest} height="60px" alt="Jest" />
-        <p>Jest</p>
-        <img src={Mocha} height="60px" alt="Mocha" />
-        <p>Mocha</p>
-        <img src={Chai} height="60px" alt="Chai" />
-        <p>Chai</p>
+      <h2 className="poppins-600-font">Testing</h2>
+      <div className="skills-container">
+        {testingTools.map((item) => (
+          <div class="skills-container-item" key={item.name}>
+            <img src={item.imgSrc} alt={item.name} className="skills-img" />
+            <p className="montserrat-400-font">{item.name}</p>
+          </div>
+        ))}
       </div>
 
-      <h2>Version Control</h2>
-      <div>
-        <img src={Git} height="60px" alt="Git" />
-        <p>Git</p>
+      <h2 className="poppins-600-font">Version Control</h2>
+      <div className="skills-container">
+        {versionControl.map((item) => (
+          <div class="skills-container-item" key={item.name}>
+            <img src={item.imgSrc} alt={item.name} className="skills-img" />
+            <p className="montserrat-400-font">{item.name}</p>
+          </div>
+        ))}
       </div>
     </div>
   );

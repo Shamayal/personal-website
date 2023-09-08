@@ -41,7 +41,7 @@ const MenuItems = ({ items, depthLevel }) => {
 
   return (
     <li
-      className="menu-items"
+      className="menu-items  montserrat-400-font"
       ref={ref}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}

@@ -5,7 +5,7 @@ const Footer = () => {
     <footer>
       <div className="footer-container">
         <div className="footer-links">
-          <ul className="links font-quicksand">
+          <ul className="links montserrat-400-font">
             <li>Home</li>
             <li>About Us</li>
             <li>FAQ</li>
@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="footer-title fontweight-700 font-poppins">
           <h2>My Footer</h2>
         </div>
-        <div className="footer-copyright font-quicksand">
+        <div className="footer-copyright roboto-300-font">
           <h6>© 2023: My Personal Website, Inc. All rights reserved.</h6>
         </div>
       </div>
