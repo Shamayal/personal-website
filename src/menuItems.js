@@ -16,7 +16,7 @@ export const menuItems = [
     url: "/blog",
   },
   {
-    title: "Hobbies",
+    title: "Hobbies", // need to fix, this is bold for some reason
     url: "",
     submenu: [
       {
