@@ -17,7 +17,7 @@ export const menuItems = [
   },
   {
     title: "Hobbies", // need to fix, this is bold for some reason
-    url: "",
+    url: "", // does this need a url?
     submenu: [
       {
         title: "Photography",
