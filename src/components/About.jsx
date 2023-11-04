@@ -51,7 +51,7 @@ I'm excited to make the leap and continue refining my skills with the right comp
           </p>
           <p className="montserrat-400-font">
             🍰 In my free time, I enjoy baking pastries, and other confections
-            which I document on my food blog, Ma Ze Dar Creations. Hire Me?
+            which I document on my food blog, Ma Ze Dar Creations.
           </p>
         </div>
         <div>
