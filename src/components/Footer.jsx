@@ -1,24 +1,23 @@
-// import "../styles/Footer.css";
+import "../styles/Footer.css";
 
 const Footer = () => {
   return (
     <footer>
       <div className="footer-container">
+
         <div className="footer-links">
           <ul className="links montserrat-400-font">
+            <li><h5>Home</h5></li>
             <li>Home</li>
-            <li>About Us</li>
-            <li>FAQ</li>
-            <li>Contact Us</li>
+            <li>About Me</li>
+            <li>Contact Me</li>
           </ul>
         </div>
 
-        <div className="footer-title fontweight-700 font-poppins">
-          <h2>My Footer</h2>
+        <div className="footer-copyright montserrat-400-font">
+          <p>© 2023: My Personal Website, Inc. All rights reserved.</p>
         </div>
-        <div className="footer-copyright roboto-300-font">
-          <h6>© 2023: My Personal Website, Inc. All rights reserved.</h6>
-        </div>
+
       </div>
     </footer>
   );
