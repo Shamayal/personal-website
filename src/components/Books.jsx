@@ -8,7 +8,7 @@ const Books = () => {
     { month: "November", year: 2023, book: "This is Going to Hurt", author: "Adam Kay", review: "" },
     { month: "October", year: 2023, book: "Lessons in Chemistry", author: "", review: "" },
     { month: "September", year: 2023, book: "Girls That Invest: Your Guide to Financial Independence through Shares and Stocks", author: "", review: "" },
-    { month: "August", year: 2023, book: "asdfgh", author: "", review: "" },
+    { month: "August", year: 2023, book: "Crying in H Mart", author: "", review: "" },
     { month: "July", year: 2023, book: "asdfghjk", author: "", review: "" },
     { month: "June", year: 2023, book: "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones", author: "", review: "" },
     { month: "May", year: 2023, book: "asdfghj", author: "", review: "" },
