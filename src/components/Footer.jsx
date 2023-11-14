@@ -7,7 +7,7 @@ const Footer = () => {
 
         <div className="footer-links">
           <ul className="links montserrat-400-font">
-            <li><h5>Home</h5></li>
+            <li><h5>Home</h5></li> 
             <li>Home</li>
             <li>About Me</li>
             <li>Contact Me</li>
