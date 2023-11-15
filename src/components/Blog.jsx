@@ -15,6 +15,7 @@ const About = () => {
             website performance, and adhering to best practices in web
             accessibility standards. I can bring this perspective to my work as
             a web developer, as I believe technology can improve people's lives.
+            talk about transition to coding
           </p>
         </div>
         
