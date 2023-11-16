@@ -16,6 +16,7 @@ const About = () => {
             accessibility standards. I can bring this perspective to my work as
             a web developer, as I believe technology can improve people's lives.
             talk about transition to coding
+            and future goals
           </p>
         </div>
         
