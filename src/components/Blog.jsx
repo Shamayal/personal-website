@@ -17,6 +17,7 @@ const About = () => {
             a web developer, as I believe technology can improve people's lives.
             talk about transition to coding
             and future goals
+            add python project
           </p>
         </div>
         
