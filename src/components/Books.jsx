@@ -9,7 +9,7 @@ const Books = () => {
     { month: "November", year: 2023, book: "This is Going to Hurt", author: "Adam Kay", review: "" },
     { month: "October", year: 2023, book: "Lessons in Chemistry", author: "Bonnie Garmus", review: "" },
     { month: "September", year: 2023, book: "Girls That Invest: Your Guide to Financial Independence through Shares and Stocks", author: "Simran Kaur", review: "" },
-    { month: "August", year: 2023, book: "Crying in H Mart", author: "Michelle Zauner", review: "" },
+    { month: "August", year: 2023, book: "Crying in H Mart", author: "Michelle Zauner", review: "beautifully and brutally written account of experience death" },
     { month: "July", year: 2023, book: "Thursday Murder Club", author: "", review: "" },
     { month: "June", year: 2023, book: "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones", author: "", review: "" },
     { month: "May", year: 2023, book: "Yellowface", author: "", review: "" },
