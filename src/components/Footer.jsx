@@ -11,6 +11,7 @@ const Footer = () => {
             <li>Home</li>
             <li>About Me</li>
             <li>My Projects</li>
+            <li>My Resume</li>
             <li>Contact Me</li>
           </ul>
         </div>
