@@ -52,8 +52,8 @@ I'm excited to make the leap and continue refining my skills with the right comp
           <p className="montserrat-400-font">
             🍰 In my free time, I enjoy baking pastries, and other confections
             which I document on my food blog, Ma Ze Dar Creations. link the blog here
-            Talk about my Medium Blog and add link
-            talk about photography and design
+            - Talk about my Medium Blog and add link
+            - talk about photography and design
           </p>
         </div>
         <div>
