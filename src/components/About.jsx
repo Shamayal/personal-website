@@ -54,6 +54,7 @@ I'm excited to make the leap and continue refining my skills with the right comp
             which I document on my food blog, Ma Ze Dar Creations. link the blog here
             - Talk about my Medium Blog and add link
             - talk about photography
+            - talk about background and goals
           </p>
         </div>
         <div>
