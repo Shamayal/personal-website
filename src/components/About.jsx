@@ -24,6 +24,7 @@ I'm excited to make the leap and continue refining my skills with the right comp
             problem-solving abilities to develop innovative solutions.
           </p>
           <p className="montserrat-400-font">
+            Shorten this paragraph
             Previously, I worked in a research lab dedicated to enhancing the
             user experience. This position instilled in me a deep understanding
             of the importance of creating user-friendly interfaces, optimizing
