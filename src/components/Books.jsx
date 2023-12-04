@@ -12,7 +12,7 @@ const Books = () => {
     { month: "August", year: 2023, book: "Crying in H Mart", author: "Michelle Zauner", review: "beautifully and brutally written account of experience death" },
     { month: "July", year: 2023, book: "Thursday Murder Club", author: "", review: "" },
     { month: "June", year: 2023, book: "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones", author: "", review: "" },
-    { month: "May", year: 2023, book: "Yellowface", author: "", review: "" },
+    { month: "May", year: 2023, book: "Yellowface", author: "R.F. Kuang", review: "" },
     { month: "April", year: 2023, book: "A Wrinkle in Time", author: "", review: "Revisiting a childhood classic." },
     { month: "March", year: 2023, book: "The Unspoken Rules: Secrets to Starting Your Career Off Right", author: "Gorick Ng", review: "" },
     { month: "February", year: 2023, book: "The Psychology of Money: Timeless lessons on wealth, greed, and happiness", author: "Morgan Housel", review: "" },
