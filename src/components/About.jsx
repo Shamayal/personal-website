@@ -22,6 +22,7 @@ I'm excited to make the leap and continue refining my skills with the right comp
             and seeking my first role as a junior developer. I am excited to
             contribute my newfound expertise, analytical skills, and
             problem-solving abilities to develop innovative solutions.
+            make this shorter
           </p>
           <p className="montserrat-400-font">
             Shorten this paragraph
