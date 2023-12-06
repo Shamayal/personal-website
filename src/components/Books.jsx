@@ -32,7 +32,7 @@ const Books = () => {
     (review) =>
       review.month === selectedMonth && review.year === selectedYear
   );
-
+// i want to add a hover over option so that when you click a book it expands to show more information
   return (
     <div>
       <p className="poppins-400-font">WHAT I'M READING</p>
