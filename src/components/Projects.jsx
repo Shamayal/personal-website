@@ -3,7 +3,7 @@
 const Projects = () => {
   return (
     <div>
-      <p className="poppins-400-font">GET TO KNOW ME</p>
+      <p className="poppins-400-font">WHAT I'VE WORKED ON</p>
       <h2 className="poppins-800-font">My Projects</h2>
 
       <h2>Frog Finance</h2>
