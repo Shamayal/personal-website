@@ -23,7 +23,7 @@ const HomePage = () => {
       <div>
         <div class="intro">
           <div class="intro-content">
-            <h2 className="poppins-400-font">🙋‍♀️ Hi, thanks for stopping by!</h2>
+            {/* <h2 className="poppins-400-font">🙋‍♀️ Hi, thanks for stopping by!</h2> */}
             <img src={LightMode} alt="" />
           </div>
 
@@ -86,7 +86,6 @@ const HomePage = () => {
         <div id="skills">
           <Skills />
         </div>
-
         <div id="contact">
           <Contact />
         </div>
