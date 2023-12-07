@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-copyright montserrat-400-font">
-          <p>© 2023: My Personal Website, Inc. All rights reserved.</p>
+          <p>Personal Website Developed and Designed by Shamayal Syed © 2023</p>
         </div>
 
       </div>
