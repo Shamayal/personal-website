@@ -9,13 +9,14 @@ const About = () => {
       <h1 className="poppins-800-font">About Me</h1>
       <div className="about-container">
         <div className="about-text">
-          <p>Hello World! I'm Afua Deborah, a Front-End Web Developer based out of Toronto. From choreography on a stage to lines of code on a web page, I love combining the worlds of logic and creative design to make eye-catching, accessible, and user-friendly websites and applications.
+          <p>From choreography on a stage to lines of code on a web page, I love combining the worlds of logic and creative design to make eye-catching, accessible, and user-friendly websites and applications.
+            
+          Technology leads, society follows. The move towards increasing inclusivity and diversity in the industry through representation is of importance to me.
+            
+          I'm excited to make the leap and continue refining my skills with the right company. Drop me a line and/or your favourite restaurant in Toronto in the contact form below or check me out at:</p>
 
-Technology leads, society follows. The move towards increasing inclusivity and diversity in the industry through representation is of importance to me.
-
-I'm excited to make the leap and continue refining my skills with the right company. Drop me a line and/or your favourite restaurant in Toronto in the contact form below or check me out at:</p>
           <p className="montserrat-400-font">
-            Hello World! I'm Shamayal Syed, a full-stack web developer located in Toronto, Canada. As a health science researcher turned full-stack web developer, I'm
+            Hello World! I'm Shamayal Syed, a full-stack web developer from Toronto, Canada. As a health science researcher turned full-stack web developer, I'm
             eager to merge my interest in coding with my passion to create
             impactful user experiences and make a meaningful difference in the
             world of technology. I'm currently continuing my learning journey
@@ -52,11 +53,7 @@ I'm excited to make the leap and continue refining my skills with the right comp
             web development projects.
           </p>
           <p className="montserrat-400-font">
-            🍰 In my free time, I enjoy baking pastries, and other confections
-            which I document on my food blog, Ma Ze Dar Creations. link the blog here
-            - Talk about my Medium Blog and add link
-            - talk about photography
-            - talk about background and goals
+            In my free time, I enjoy baking pastries, and other confections which I document on my food blog, <a href="https://www.instagram.com/mazedarcreations/" target="_blank"><strong>Ma Ze Dar Creations</strong></a>. I'm also an amateur photographer, and like to write
           </p>
         </div>
         <div>
