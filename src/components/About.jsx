@@ -16,7 +16,8 @@ const About = () => {
           I'm excited to make the leap and continue refining my skills with the right company. Drop me a line and/or your favourite restaurant in Toronto in the contact form below or check me out at:</p>
 
           <p className="montserrat-400-font">
-            Hello World! I'm Shamayal Syed, a full-stack web developer from Toronto, Canada. As a health science researcher turned full-stack web developer, I'm
+            Hello World! I'm Shamayal Syed, a full-stack web developer from Toronto, Canada. As a health science researcher turned full-stack web developer, I love combining the worlds of logic and to make 
+            
             eager to merge my interest in coding with my passion to create
             impactful user experiences and make a meaningful difference in the
             world of technology. I'm currently continuing my learning journey
