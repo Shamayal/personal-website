@@ -41,7 +41,9 @@ const About = () => {
               href="https://www.instagram.com/mazedarcreations/"
               target="_blank"
             >
-              Ma Ze Dar Creations
+              <i>
+                <strong>Ma Ze Dar Creations</strong>
+              </i>
             </a>
             . I'm also an amateur travel photographer, and a sporadic blogger
             chronicling my coding journey.

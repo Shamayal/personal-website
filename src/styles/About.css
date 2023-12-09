@@ -16,3 +16,8 @@
 .about-text {
   margin-right: 50px;
 }
+
+.about-container a {
+  text-decoration: none;
+  color: #05AECB;
+}
