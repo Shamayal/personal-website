@@ -24,7 +24,7 @@ const Books = () => {
       author: "Paul Kalanithi",
       genre: "Memoir",
       cover: <img src={Dec2023} />,
-      review: "",
+      review: "Philosophical",
     },
     {
       month: "November",
