@@ -6,6 +6,7 @@ header {
 .navbar {
   /* border-bottom: 1px solid rgb(230, 230, 230); */
   align-items: center;
+  padding: 10px 20px;
 }
 
 .nav-area {
@@ -24,6 +25,7 @@ nav ul {
 
 .logo-name img {
   height: 50px;
+  margin-right: 10px;
 }
 
 .logo-name {
