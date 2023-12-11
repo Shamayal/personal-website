@@ -11,33 +11,33 @@ export const menuItems = [
     title: "Projects",
     url: "/projects",
   },
-  {
-    title: "Blog",
-    url: "/blog",
-  },
-  {
-    title: "Hobbies", // need to fix, this is bold for some reason
-    url: "", // does this need a url?
-    submenu: [ // change these names
-      {
-        title: "Photography",
-        submenu: [
-          {
-            title: "Ma Ze Dar Creations",
-            url: "/hobbies/photography/food",
-          },
-          {
-            title: "Travel",
-            url: "/hobbies/photography/travel",
-          },
-        ],
-      },
-      {
-        title: "Book Reviews",
-        url: "/hobbies/books",
-      },
-    ],
-  },
+  // {
+  //   title: "Blog",
+  //   url: "/blog",
+  // },
+  // {
+  //   title: "Hobbies", // need to fix, this is bold for some reason
+  //   url: "", // does this need a url?
+  //   submenu: [ // change these names
+  //     {
+  //       title: "Photography",
+  //       submenu: [
+  //         {
+  //           title: "Ma Ze Dar Creations",
+  //           url: "/hobbies/photography/food",
+  //         },
+  //         {
+  //           title: "Travel",
+  //           url: "/hobbies/photography/travel",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       title: "Book Reviews",
+  //       url: "/hobbies/books",
+  //     },
+  //   ],
+  // },
   {
     title: "Contact",
     url: "/#contact",
