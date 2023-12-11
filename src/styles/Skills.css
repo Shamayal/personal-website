@@ -1,24 +1,43 @@
 #skills {
-  margin-left: 80px;
-  margin-right: 80px;
+  margin: 0 80px;
 }
 
 .skills-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  margin: 0 90px;
 }
 
 .skills-container-item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10px;
+  width: calc(25% - 220px);
+  box-sizing: border-box;
 }
 
-h2 {
+.h2-container {
   display: flex;
   justify-content: center;
 }
 
+.h2-container h2 {
+  display: inline-block;
+  margin: 5px 0;
+  background-color: #05AECB;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
 .skills-img {
   height: 45px;
+}
+
+.montserrat-400-font {
+  margin-top: 5px;
+  text-align: center;
+  font-size: small;
 }

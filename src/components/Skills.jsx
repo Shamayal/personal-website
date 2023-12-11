@@ -49,7 +49,7 @@ const Skills = () => {
     { name: "Express", imgSrc: Express },
     { name: "jQuery", imgSrc: jQuery },
     { name: "Sass", imgSrc: Sass },
-    { name: "AJAX (Asynchronous JavaScript And XML)", imgSrc: AJAX },
+    { name: "Asynchronous JS And XML", imgSrc: AJAX },
     { name: "Embedded JavaScript", imgSrc: EJS },
   ];
 
@@ -80,7 +80,9 @@ const Skills = () => {
       <p className="poppins-400-font">MY TECHNICAL ABILITIES</p>
       <h1 className="poppins-800-font">Skills</h1>
 
-      <h2 className="poppins-600-font">Languages</h2>
+      <div className="h2-container">
+        <h2 className="poppins-600-font">Languages</h2>
+      </div>
       <div className="skills-container">
         {languages.map((item) => (
           <div class="skills-container-item" key={item.name}>
@@ -90,7 +92,9 @@ const Skills = () => {
         ))}
       </div>
 
-      <h2 className="poppins-600-font">Databases</h2>
+      <div className="h2-container">
+        <h2 className="poppins-600-font">Databases</h2>
+      </div>
       <div className="skills-container">
         {databases.map((item) => (
           <div class="skills-container-item" key={item.name}>
@@ -100,7 +104,9 @@ const Skills = () => {
         ))}
       </div>
 
-      <h2 className="poppins-600-font">Frameworks/Libraries/Environments</h2>
+      <div className="h2-container">
+        <h2 className="poppins-600-font">Frameworks/Libraries/Environments</h2>
+      </div>
       <div className="skills-container">
         {frameworksAndLibraries.map((item) => (
           <div class="skills-container-item" key={item.name}>
@@ -110,7 +116,9 @@ const Skills = () => {
         ))}
       </div>
 
-      <h2 className="poppins-600-font">Design</h2>
+      <div className="h2-container">
+        <h2 className="poppins-600-font">Design</h2>
+      </div>
       <div className="skills-container">
         {designTools.map((item) => (
           <div class="skills-container-item" key={item.name}>
@@ -120,7 +128,9 @@ const Skills = () => {
         ))}
       </div>
 
-      <h2 className="poppins-600-font">Testing</h2>
+      <div className="h2-container">
+        <h2 className="poppins-600-font">Testing</h2>
+      </div>
       <div className="skills-container">
         {testingTools.map((item) => (
           <div class="skills-container-item" key={item.name}>
@@ -130,7 +140,9 @@ const Skills = () => {
         ))}
       </div>
 
-      <h2 className="poppins-600-font">Version Control</h2>
+      <div className="h2-container">
+        <h2 className="poppins-600-font">Version Control</h2>
+      </div>
       <div className="skills-container">
         {versionControl.map((item) => (
           <div class="skills-container-item" key={item.name}>
