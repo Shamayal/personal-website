@@ -31,9 +31,9 @@ const NavigationBar = () => {
           })}
         </div>
 
-        <div>
+        {/* <div>
           <p>Dark/Light Mode</p>
-        </div>
+        </div> */}
       </ul>
     </nav>
   );
