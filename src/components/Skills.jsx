@@ -87,7 +87,7 @@ const Skills = () => {
         {languages.map((item) => (
           <div class="skills-container-item" key={item.name}>
             <img src={item.imgSrc} alt={item.name} className="skills-img" />
-            <p className="montserrat-400-font">{item.name}</p>
+            <p className="montserrat-400-font skills-font skills-font">{item.name}</p>
           </div>
         ))}
       </div>
@@ -99,7 +99,7 @@ const Skills = () => {
         {databases.map((item) => (
           <div class="skills-container-item" key={item.name}>
             <img src={item.imgSrc} alt={item.name} className="skills-img" />
-            <p className="montserrat-400-font">{item.name}</p>
+            <p className="montserrat-400-font skills-font">{item.name}</p>
           </div>
         ))}
       </div>
@@ -111,7 +111,7 @@ const Skills = () => {
         {frameworksAndLibraries.map((item) => (
           <div class="skills-container-item" key={item.name}>
             <img src={item.imgSrc} alt={item.name} className="skills-img" />
-            <p className="montserrat-400-font">{item.name}</p>
+            <p className="montserrat-400-font skills-font">{item.name}</p>
           </div>
         ))}
       </div>
@@ -123,7 +123,7 @@ const Skills = () => {
         {designTools.map((item) => (
           <div class="skills-container-item" key={item.name}>
             <img src={item.imgSrc} alt={item.name} className="skills-img" />
-            <p className="montserrat-400-font">{item.name}</p>
+            <p className="montserrat-400-font skills-font">{item.name}</p>
           </div>
         ))}
       </div>
@@ -135,7 +135,7 @@ const Skills = () => {
         {testingTools.map((item) => (
           <div class="skills-container-item" key={item.name}>
             <img src={item.imgSrc} alt={item.name} className="skills-img" />
-            <p className="montserrat-400-font">{item.name}</p>
+            <p className="montserrat-400-font skills-font">{item.name}</p>
           </div>
         ))}
       </div>
@@ -147,7 +147,7 @@ const Skills = () => {
         {versionControl.map((item) => (
           <div class="skills-container-item" key={item.name}>
             <img src={item.imgSrc} alt={item.name} className="skills-img" />
-            <p className="montserrat-400-font">{item.name}</p>
+            <p className="montserrat-400-font skills-font">{item.name}</p>
           </div>
         ))}
       </div>
