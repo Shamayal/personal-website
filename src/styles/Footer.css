@@ -3,11 +3,8 @@
 }
 
 .footer-container p {
-  margin-bottom: 0;
-  padding-bottom: 1rem;
   text-align: center;
-}
-
-p {
   color: white;
+  padding: 1rem;
+  margin: 0;
 }
