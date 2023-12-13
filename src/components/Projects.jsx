@@ -9,7 +9,7 @@ const Projects = () => {
       <div className="projects-container">
         <h2 className="poppins-600-font">Frog Finance</h2>
         <p className="montserrat-400-font">
-          Tech Stack: React, Node.js, PostgreSQL, Tailwind, CSS
+          <i>Tech Stack: React, Node.js, PostgreSQL, Tailwind, CSS</i>
         </p>
         <p className="montserrat-400-font">
           A full-stack, multi-page web application that allows users to track
@@ -20,7 +20,7 @@ const Projects = () => {
 
       <h2 className="poppins-600-font">PhotoLabs</h2>
       <p className="montserrat-400-font">
-        Tech Stack: React, Axios, JS, SCSS, PostgreSQL
+        <i>Tech Stack: React, Axios, JS, SCSS, PostgreSQL</i>
       </p>
       <p className="montserrat-400-font">
         A React-based single-page application that allows users to view and
@@ -29,8 +29,8 @@ const Projects = () => {
 
       <h2 className="poppins-600-font">re-furnish</h2>
       <p className="montserrat-400-font">
-        Tech Stack: EJS, Node.js, Bootstrap, JS, Express, SASS, jQuery, Ajax,
-        PostgreSQL
+        <i>Tech Stack: EJS, Node.js, Bootstrap, JS, Express, SASS, jQuery, Ajax,
+        PostgreSQL</i>
       </p>
       <p className="montserrat-400-font">
         A full stack, multi-page web application that allows users to browse
@@ -41,7 +41,7 @@ const Projects = () => {
 
       <h2 className="poppins-600-font">Tweeter</h2>
       <p className="montserrat-400-font">
-        Tech Stack: HTML, CSS, JS, jQuery, Ajax, Node.js, Express
+        <i>Tech Stack: HTML, CSS, JS, jQuery, Ajax, Node.js, Express</i>
       </p>
       <p className="montserrat-400-font">
         A simple, single-page Twitter clone that allows users to write and post
@@ -49,7 +49,7 @@ const Projects = () => {
       </p>
 
       <h2 className="poppins-600-font">TinyApp</h2>
-      <p className="montserrat-400-font">Tech Stack: Express, EJS, Node.js</p>
+      <p className="montserrat-400-font"><i>Tech Stack: Express, EJS, Node.js</i></p>
       <p className="montserrat-400-font">
         A full-stack web application that allows users to shorten and save long
         URLs.
