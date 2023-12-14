@@ -11,8 +11,7 @@ header {
   top: 0;
   left: 0; */
   width: 100%;
-  background-color: #A0F2FF;
-  /* opacity: 70%; */
+  background-color: rgba(160, 242, 255, 0.9); /* Set the alpha value as needed (e.g., 0.7 for 70% opacity) */
   z-index: 1000;
 }
 
