@@ -41,9 +41,10 @@
 }
 
 .icon-container img:hover {
-  transform: scale(1.5); /* Increase the size on hover */
-  transition: filter 0.9s, transform 0.5s; /* Add a smooth transition effect */
-  filter: grayscale(100%);
+  transform: scale(1.5);
+  transition: filter 2s, transform 0.5s;
+  /* filter: grayscale(100%); */
+  filter: hue-rotate(0deg) brightness(0%);
 }
 
 .resume-button {
@@ -67,12 +68,17 @@
 
 .resume-button:hover {
   transform: scale(1.5); /* Increase the size on hover */
-  transition: filter 0.9s, transform 0.5s; /* Add a smooth transition effect */
-  filter: grayscale(100%);
+  transition: background-color 2s, transform 0.5s; /* Add a smooth transition effect for background-color and transform */
+  background-color: black; /* Change the background color on hover */
+  color: white; /* Add this line to change the font color on hover */
 }
 
 .resume-button h3 {
   margin: 0em; /* Remove default margin for <h3> */
+}
+
+.resume-button h3:hover {
+  color: white;
 }
 
 .typewriter {
