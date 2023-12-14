@@ -4,9 +4,15 @@ header {
 }
 
 .navbar {
-  /* border-bottom: 1px solid rgb(230, 230, 230); */
-  align-items: center;
+  position: fixed;
+  /* align-items: center;
   padding: 10px 20px;
+  top: 0;
+  left: 0; */
+  width: 100%;
+  background-color: #A0F2FF; /* Adjust the background color as needed */
+  /* opacity: 70%; */
+  z-index: 1000;
 }
 
 .nav-area {
