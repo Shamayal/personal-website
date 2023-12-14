@@ -5,12 +5,13 @@ header {
 
 .navbar {
   position: fixed;
+
   /* align-items: center;
   padding: 10px 20px;
   top: 0;
   left: 0; */
   width: 100%;
-  background-color: #A0F2FF; /* Adjust the background color as needed */
+  background-color: #A0F2FF;
   /* opacity: 70%; */
   z-index: 1000;
 }
@@ -90,11 +91,19 @@ button span {
 .menu-items > a, .menu-items button {
   text-align: left;
   padding: 0.7rem 1rem;
+  transition: color 0.3s ease-in, font-weight 0.3s ease-in;
 }
 
 .menu-items a:hover,
 .menu-items button:hover {
-  background-color: #A0F2FF;
+  font-weight: bolder;
+  /* font-size: larger; */
+  color: #05AECB;
+  /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+  /* transform: rotate(5deg); */
+  /* background-image: linear-gradient(to right, #05AECB, white);
+  -webkit-background-clip: text;
+  color: transparent; */
 }
 
 .arrow::after {
