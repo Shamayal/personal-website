@@ -1,0 +1,18 @@
+#contact {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.books-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.books-container img {
+  height: 500px;
+  border-radius: 10%;
+}
+
+.books-text {
+  margin-right: 50px;
+}
