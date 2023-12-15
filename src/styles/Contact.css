@@ -3,16 +3,39 @@
   margin-right: 80px;
 }
 
-.books-container {
+.email-me {
+  transition: transform 0.5s ease-in-out;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
 }
 
-.books-container img {
-  height: 500px;
-  border-radius: 10%;
+.email-me:hover {
+  transform: scale(1.1);
 }
 
-.books-text {
-  margin-right: 50px;
+.email-me a {
+  text-decoration: none;
+}
+
+.email-me p {
+  color: black;
+  display: flex;
+  align-items: center;
+  transition: transform 0.5s ease-in-out, font-size 1s ease-in-out, font-weight 1s ease-in-out, color 1s ease-in-out;
+}
+
+.email-me:hover p {
+  font-size: larger;
+  font-weight: bolder;
+  color: #05AECB;
+}
+
+.email-me img {
+  height: 40px;
+  margin-right: 10px;
+  transition: filter 1s ease-in-out;
+}
+
+.email-me:hover img {
+  filter: hue-rotate(0deg) brightness(0%);
 }
