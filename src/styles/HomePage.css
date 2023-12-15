@@ -38,11 +38,11 @@
 
 .icon-container img {
   height: 60px;
+  transition: filter 2s ease-out, transform 0.5s ease-out;
 }
 
 .icon-container img:hover {
   transform: scale(1.5);
-  transition: filter 2s, transform 0.5s;
   /* filter: grayscale(100%); */
   filter: hue-rotate(0deg) brightness(0%);
 }
@@ -59,6 +59,7 @@
   width: 6.5em; /* Add this property to control the width */
   margin: 1em;
   align-self: center;
+  transition: background-color 2s ease-in-out, transform 0.5s ease-in-out;
 }
 
 .resume-button a {
@@ -68,13 +69,13 @@
 
 .resume-button:hover {
   transform: scale(1.5); /* Increase the size on hover */
-  transition: background-color 2s, transform 0.5s; /* Add a smooth transition effect for background-color and transform */
   background-color: black; /* Change the background color on hover */
   color: white; /* Add this line to change the font color on hover */
 }
 
 .resume-button h3 {
   margin: 0em; /* Remove default margin for <h3> */
+  transition: color 1s ease-in-out;
 }
 
 .resume-button h3:hover {
