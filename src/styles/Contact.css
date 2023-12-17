@@ -39,3 +39,60 @@
 .email-me:hover img {
   filter: hue-rotate(0deg) brightness(0%);
 }
+
+form {
+  position: relative;
+  max-width: 60%;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+form::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('https://raw.githubusercontent.com/Shamayal/personal-website/d508bf77c84023ca13ddf3537a7d50bd4c47e2c9/src/media/Clouds-Background.svg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  /* filter: blur(1px); */
+  z-index: -1;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 4px;
+  opacity: 70%;
+}
+
+input[type="text"]:focus ,
+input[type="email"]:focus ,
+textarea:focus {
+  background-color: #a0f2ff;
+}
+
+button {
+  background-color: #05AECB;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #a0f2ff;
+  color: black;
+}
+
