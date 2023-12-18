@@ -1,25 +1,28 @@
 #projects {
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 100px;
+  margin: 80px;
 }
 
-/* 
 .projects-container {
   display: flex;
   flex-direction: row;
+  margin: 20px 0;
+  border: 2px solid #a0f2ff;
+  padding: 20px;
 }
 
-.projects-container img {
-  height: 500px;
-  border-radius: 10%;
+.projects-container:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.projects-text {
+.projects-container > div {
   margin-right: 50px;
 }
 
-.projects-container a {
-  text-decoration: none;
-  color: #05AECB;
-} */
+.project-pic,
+.project-gif {
+  border: 2px solid black;
+}
+
+.project-details {
+  margin-top: 50px;
+}
