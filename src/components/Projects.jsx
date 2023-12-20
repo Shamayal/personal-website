@@ -3,7 +3,7 @@ import frogFinanceGif from "../media/FrogFinance.gif";
 import photoLabsGif from "../media/PhotoLabs.gif";
 import reFurnishGif from "../media/ReFurnish.gif";
 import tweeterGif from "../media/Tweeter.gif";
-import tinyAppGif from "../media/TinyApp.png";
+import tinyAppPic from "../media/TinyApp.png";
 
 const Projects = () => {
   return (
@@ -125,7 +125,7 @@ const Projects = () => {
         <div>
           <h2 className="poppins-600-font">TinyApp</h2>
           <img
-            src={tinyAppGif}
+            src={tinyAppPic}
             alt="TinyApp Demo"
             className="project-pic"
             height="300px"
