@@ -47,7 +47,6 @@ const Contact = () => {
       console.error("Error during form submission:", error);
     }
   };
-  // need to redo this
   return (
     <div>
       <p className="poppins-400-font">GET IN TOUCH</p>
