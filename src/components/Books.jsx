@@ -105,7 +105,7 @@ const Books = () => {
       author: "Gorick Ng",
       genre: "Self-Help",
       cover: <img src={Mar2023} />,
-      review: "",
+      review: "A guide to anyone navigating the job market",
     },
     {
       month: "February",
