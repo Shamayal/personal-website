@@ -93,7 +93,7 @@ const Books = () => {
       month: "April",
       year: 2023,
       book: "A Bridge to Terabithia",
-      author: "",
+      author: "Katherine Paterson",
       genre: "Realistic Fiction",
       cover: <img src={Apr2023} />,
       review: "Revisiting a childhood classic.",
