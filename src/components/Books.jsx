@@ -92,8 +92,8 @@ const Books = () => {
     {
       month: "April",
       year: 2023,
-      book: "A",
-      author: "Bridge to Terabithia",
+      book: "A Bridge to Terabithia",
+      author: "",
       genre: "Realistic Fiction",
       cover: <img src={Apr2023} />,
       review: "Revisiting a childhood classic.",
