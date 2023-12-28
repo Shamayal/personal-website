@@ -9,7 +9,7 @@ import Python from "../media/Python Logo - Dark.png";
 import PSQL from "../media/PSQL Logo - Dark.png";
 
 import NodeJS from "../media/NodeJS Logo - Dark.png";
-import React from "../media/React Logo - Dark.png";
+import ReactSkill from "../media/React Logo - Dark.png";
 import RubyonRails from "../media/RubyonRails Logo - Dark.png";
 import Bootstrap from "../media/Bootstrap Logo - Dark.png";
 import Tailwind from "../media/Tailwind Logo - Dark.png";
@@ -31,6 +31,11 @@ import Chai from "../media/Chai Logo - Dark.png";
 
 import Git from "../media/Git Logo - Dark.png";
 
+import React, { useEffect } from 'react';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Skills = () => {
   const languages = [
     { name: 'JavaScript ES6', imgSrc: JS },
@@ -42,7 +47,7 @@ const Skills = () => {
   
   const frameworksAndLibraries = [
     { name: "Node.js", imgSrc: NodeJS },
-    { name: "React", imgSrc: React },
+    { name: "React", imgSrc: ReactSkill },
     { name: "Ruby on Rails", imgSrc: RubyonRails },
     { name: "Bootstrap", imgSrc: Bootstrap },
     { name: "Tailwind CSS", imgSrc: Tailwind },
@@ -75,6 +80,10 @@ const Skills = () => {
     { name: 'Git', imgSrc: Git },
   ];
 
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div>
       <p className="poppins-400-font">MY TECHNICAL ABILITIES</p>
@@ -86,7 +95,7 @@ const Skills = () => {
       <div className="skills-container">
         {languages.map((item) => (
           <div class="skills-container-item" key={item.name}>
-            <img src={item.imgSrc} alt={item.name} className="skills-img" />
+            <img src={item.imgSrc} alt={item.name} className="skills-img" data-aos="zoom-in" data-aos-duration="2000" />
             <p className="montserrat-400-font skills-font skills-font">{item.name}</p>
           </div>
         ))}
@@ -98,7 +107,7 @@ const Skills = () => {
       <div className="skills-container">
         {databases.map((item) => (
           <div class="skills-container-item" key={item.name}>
-            <img src={item.imgSrc} alt={item.name} className="skills-img" />
+            <img src={item.imgSrc} alt={item.name} className="skills-img" data-aos="zoom-in" data-aos-duration="2000" />
             <p className="montserrat-400-font skills-font">{item.name}</p>
           </div>
         ))}
@@ -110,7 +119,7 @@ const Skills = () => {
       <div className="skills-container">
         {frameworksAndLibraries.map((item) => (
           <div class="skills-container-item" key={item.name}>
-            <img src={item.imgSrc} alt={item.name} className="skills-img" />
+            <img src={item.imgSrc} alt={item.name} className="skills-img" data-aos="zoom-in" data-aos-duration="2000" />
             <p className="montserrat-400-font skills-font">{item.name}</p>
           </div>
         ))}
@@ -122,7 +131,7 @@ const Skills = () => {
       <div className="skills-container">
         {designTools.map((item) => (
           <div class="skills-container-item" key={item.name}>
-            <img src={item.imgSrc} alt={item.name} className="skills-img" />
+            <img src={item.imgSrc} alt={item.name} className="skills-img" data-aos="zoom-in" data-aos-duration="2000" />
             <p className="montserrat-400-font skills-font">{item.name}</p>
           </div>
         ))}
@@ -134,7 +143,7 @@ const Skills = () => {
       <div className="skills-container">
         {testingTools.map((item) => (
           <div class="skills-container-item" key={item.name}>
-            <img src={item.imgSrc} alt={item.name} className="skills-img" />
+            <img src={item.imgSrc} alt={item.name} className="skills-img" data-aos="zoom-in" data-aos-duration="2000" />
             <p className="montserrat-400-font skills-font">{item.name}</p>
           </div>
         ))}
@@ -146,7 +155,7 @@ const Skills = () => {
       <div className="skills-container">
         {versionControl.map((item) => (
           <div class="skills-container-item" key={item.name}>
-            <img src={item.imgSrc} alt={item.name} className="skills-img" />
+            <img src={item.imgSrc} alt={item.name} className="skills-img" data-aos="zoom-in" data-aos-duration="2000" />
             <p className="montserrat-400-font skills-font">{item.name}</p>
           </div>
         ))}
