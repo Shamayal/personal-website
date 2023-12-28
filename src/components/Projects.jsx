@@ -5,13 +5,23 @@ import reFurnishGif from "../media/ReFurnish.gif";
 import tweeterGif from "../media/Tweeter.gif";
 import tinyAppPic from "../media/TinyApp.png";
 
+import React, { useEffect } from 'react';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Projects = () => {
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div id="projects">
       <p className="poppins-400-font">WHAT I'VE WORKED ON</p>
       <h2 className="poppins-800-font">My Projects</h2>
 
-      <div className="projects-container">
+      <div data-aos="fade-right" data-aos-duration="2000" className="projects-container">
         <div>
           <h2 className="poppins-600-font">Frog Finance</h2>
           <img
@@ -39,7 +49,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="projects-container">
+      <div data-aos="fade-left" data-aos-duration="2000" className="projects-container">
         <div>
           <h2 className="poppins-600-font">PhotoLabs</h2>
           <img
@@ -66,7 +76,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="projects-container">
+      <div data-aos="fade-right" data-aos-duration="2000" className="projects-container">
         <div>
           <h2 className="poppins-600-font">re-furnish</h2>
           <img
@@ -98,7 +108,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="projects-container">
+      <div data-aos="fade-left" data-aos-duration="2000" className="projects-container">
         <div>
           <h2 className="poppins-600-font">Tweeter</h2>
           <img src={tweeterGif} alt="Tweeter Demo" className="project-gif" />
@@ -121,7 +131,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="projects-container">
+      {/* <div className="projects-container">
         <div>
           <h2 className="poppins-600-font">TinyApp</h2>
           <img
@@ -147,7 +157,7 @@ const Projects = () => {
             <button className="github-button">View on GitHub</button>
           </a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
