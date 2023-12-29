@@ -9,7 +9,7 @@ import React, { useEffect } from 'react';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+// add hover feature
 const Projects = () => {
 
   useEffect(() => {
@@ -20,6 +20,8 @@ const Projects = () => {
     <div id="projects">
       <p className="poppins-400-font">WHAT I'VE WORKED ON</p>
       <h2 className="poppins-800-font">My Projects</h2>
+
+      <p>hover over any project to learn more!</p>
 
       <div data-aos="fade-right" data-aos-duration="2000" className="projects-container">
         <div>
