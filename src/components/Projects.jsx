@@ -9,7 +9,7 @@ import React, { useEffect } from 'react';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-// add hover feature, modify this for mobile
+// add hover feature, modify this for mobile, maybe a tap feature
 const Projects = () => {
 
   useEffect(() => {
