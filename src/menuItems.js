@@ -11,10 +11,10 @@ export const menuItems = [
     title: "Projects",
     url: "/projects",
   },
-  // {
-  //   title: "Blog",
-  //   url: "/blog",
-  // },
+  {
+    title: "Blog",
+    url: "/blog",
+  },
   // {
   //   title: "Hobbies", // need to fix, this is bold for some reason
   //   url: "", // does this need a url?
