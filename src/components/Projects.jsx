@@ -19,7 +19,7 @@ const Projects = () => {
   return (
     <div id="projects">
       <p className="poppins-400-font">WHAT I'VE WORKED ON</p>
-      <h2 className="poppins-800-font">My Projects</h2>
+      <h1 className="poppins-800-font">My Projects</h1>
 
       <p>hover over any project to learn more!</p>
 
