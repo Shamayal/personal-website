@@ -1,0 +1,27 @@
+#blog {
+  margin: 80px;
+}
+
+.blog-container {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+  border: 2px solid #a0f2ff;
+  padding: 20px;
+}
+
+.blog-container:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-container > div {
+  margin-right: 50px;
+}
+
+.blog-details {
+  margin-top: 50px;
+}
+
+blog-text {
+  text-decoration: none;
+}
