@@ -20,7 +20,7 @@ const About = () => {
           <p className="montserrat-400-font">
             My experience in the dynamic insurance industry honed my ability to
             quickly grasp new technologies, frameworks, and programming
-            languages – a crucial skill in the evolving field of web developmen
+            languages – a crucial skill in the evolving field of web development.
             My diverse background fosters adaptability, enabling me to thrive in
             different environments. Successfully transitioning between sectors,
             I bring a well-rounded skill set, quick acclimation to new project
