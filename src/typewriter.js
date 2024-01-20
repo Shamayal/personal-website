@@ -8,8 +8,7 @@ const TypewriterComponent = () => {
       <Typewriter
         options={{
           strings: [
-            "Full-Stack Web Developer",
-            "Coding Instructor",
+            "Junior Developer",
             "Blogger",
             "Baker",
             "Amateur Photographer",
