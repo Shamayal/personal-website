@@ -40,12 +40,11 @@ const Blog = () => {
     <div id="blog">
       <p className="poppins-400-font">READ MY ARTICLES</p>
       <h1 className="poppins-800-font">My Blog</h1>
-
-      <div className="blog-articles">
-        <p className="montserrat-400-font">
+      <p className="montserrat-400-font">
           Explore my thoughts and experiences in the tech world through these
           articles. Hover over each box and click to read the full article.
         </p>
+      <div className="blog-articles">
         {articles.map((article, index) => (
           <a
             key={index}
