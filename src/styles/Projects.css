@@ -54,10 +54,28 @@
   text-align: center;
 }
 
-.project-overlay p {
+.project-description {
   color: white;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.tech-bubble {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  margin: 5px;
+  /* padding: 5px 10px; */
+  border-radius: 10px;
 }
 
 .projects-container:hover .project-overlay {
