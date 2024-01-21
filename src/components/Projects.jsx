@@ -77,8 +77,9 @@ const Projects = () => {
         {projectObj.map((project, index) => (
           <div
             key={index}
-            data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
-            data-aos-duration="4000"
+            data-aos={index % 2 === 0 ? "flip-left" : "flip-right"}
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
             className="projects-container"
           >
             <div>
