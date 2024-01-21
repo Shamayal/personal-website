@@ -2,27 +2,55 @@
   margin: 80px;
 }
 
-.projects-container {
+.project-portfolio {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.projects-container {
+  position: relative;
   margin: 20px 0;
   border: 3px solid #05AECB;
   padding: 20px;
+
+  width: 600px;
 }
 
 .projects-container:hover {
   box-shadow: 0 0 30px 10px #a0f2ff;
 }
 
-.projects-container > div {
-  margin-right: 50px;
+.project-gif-container {
+  position: relative;
 }
 
-.project-pic,
 .project-gif {
+  display: block;
   border: 2px solid black;
 }
 
-.project-details {
-  margin-top: 50px;
+.project-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  transition: .5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.project-overlay p {
+  color: white;
+}
+
+.projects-container:hover .project-overlay {
+  opacity: 1;
 }

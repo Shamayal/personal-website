@@ -68,32 +68,45 @@ const Projects = () => {
     <div id="projects">
       <p className="poppins-400-font">WHAT I'VE WORKED ON</p>
       <h1 className="poppins-800-font">My Projects</h1>
-      <p className="montserrat-400-font">
-        Hover over any project to learn more!
-      </p>
 
-      {projectObj.map((project, index) => (
-        <div
-          key={index}
-          data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
-          data-aos-duration="4000"
-          className="projects-container"
-        >
-          <div>
-            <h2 className="poppins-600-font">{project.title}</h2>
-            <img src={project.gif} alt={project.alt} className="project-gif" />
+      <p className="montserrat-400-font">
+          Hover over any project to learn more!
+        </p>
+
+      <div className="project-portfolio">
+        {projectObj.map((project, index) => (
+          <div
+            key={index}
+            data-aos={index % 2 === 0 ? "fade-right" : "fade-left"}
+            data-aos-duration="4000"
+            className="projects-container"
+          >
+            <div>
+              <h2 className="poppins-600-font">{project.title}</h2>
+              <div className="project-gif-container">
+                <img
+                  src={project.gif}
+                  alt={project.alt}
+                  className="project-gif"
+                />
+                <div className="project-overlay">
+                  <p className="montserrat-400-font">{project.description}</p>
+                  <p className="montserrat-400-font">
+                    <i>Tech Stack: {project.techStack}</i>
+                  </p>
+                  <a
+                    href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <button className="github-button">View on GitHub</button>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="project-details">
-            <p className="montserrat-400-font">
-              <i>Tech Stack: {project.techStack}</i>
-            </p>
-            <p className="montserrat-400-font">{project.description}</p>
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
-              <button className="github-button">View on GitHub</button>
-            </a>
-          </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };
