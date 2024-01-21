@@ -68,11 +68,9 @@ const Projects = () => {
     <div id="projects">
       <p className="poppins-400-font">WHAT I'VE WORKED ON</p>
       <h1 className="poppins-800-font">My Projects</h1>
-
       <p className="montserrat-400-font">
           Hover over any project to learn more!
-        </p>
-
+      </p>
       <div className="project-portfolio">
         {projectObj.map((project, index) => (
           <div
