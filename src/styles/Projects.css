@@ -6,12 +6,12 @@
   display: flex;
   flex-direction: row;
   margin: 20px 0;
-  border: 2px solid #a0f2ff;
+  border: 3px solid #05AECB;
   padding: 20px;
 }
 
 .projects-container:hover {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 30px 10px #a0f2ff;
 }
 
 .projects-container > div {
