@@ -43,23 +43,22 @@ const Blog = () => {
 
       <div className="blog-articles">
         {articles.map((article, index) => (
-          <a
-            key={index}
-            href={article.link}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="blog-container">
-              <div className="blog-text">
-                <img src={article.image} alt="" className="blog-img" />
-                <h2 className="poppins-600-font">{article.title}</h2>
-                <p className="montserrat-400-font">{article.date}</p>
+          <div className="blog-container">
+            <a
+              key={index}
+              href={article.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={article.image} alt="" className="blog-img" />
+              <div className="overlay">
+                <h2 className="poppins-600-font blog-title">{article.title}</h2>
               </div>
-            </div>
-          </a>
+              <p className="montserrat-400-font blog-date">{article.date}</p>
+            </a>
+          </div>
         ))}
       </div>
-
     </div>
   );
 };
