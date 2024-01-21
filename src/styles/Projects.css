@@ -7,17 +7,19 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .projects-container {
   position: relative;
-  margin: 20px 0;
-  border: 3px solid #05AECB;
-  padding: 20px;
-
-  width: 600px;
+  /* padding: 20px; */
+  width: 590px;
 }
 
-.projects-container:hover {
-  box-shadow: 0 0 30px 10px #a0f2ff;
+.projects-container h2 {
+  transition: color 0.3s ease-in;
+}
+
+.projects-container:hover h2 {
+  color: #05AECB;
 }
 
 .project-gif-container {
@@ -25,8 +27,12 @@
 }
 
 .project-gif {
-  display: block;
   border: 2px solid black;
+  display: block;
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .project-overlay {
@@ -36,7 +42,8 @@
   opacity: 0;
   color: white;
   background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 10px;
+  box-shadow: 0 0 30px 10px #a0f2ff;
+
   top: 0;
   left: 0;
   transition: .5s ease-in-out;
