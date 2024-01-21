@@ -41,9 +41,11 @@ const Blog = () => {
       <p className="poppins-400-font">READ MY ARTICLES</p>
       <h1 className="poppins-800-font">My Blog</h1>
 
-      <p>Hover to read the full article!</p>
-
       <div className="blog-articles">
+        <p className="montserrat-400-font">
+          Explore my thoughts and experiences in the tech world through these
+          articles. Hover over each box and click to read the full article.
+        </p>
         {articles.map((article, index) => (
           <a
             key={index}
@@ -55,7 +57,9 @@ const Blog = () => {
               <div className="blog-img-container">
                 <img src={article.image} alt="" className="blog-img" />
                 <div className="blog-overlay">
-                  <h2 className="poppins-600-font blog-title">{article.title}</h2>
+                  <h2 className="poppins-600-font blog-title">
+                    {article.title}
+                  </h2>
                 </div>
               </div>
               <p className="montserrat-400-font blog-date">{article.date}</p>
