@@ -137,14 +137,6 @@ const Skills = () => {
       <div className="h2-container">
         <h2 className="poppins-600-font">Version Control</h2>
       </div>
-      <div className="skills-container">
-        {versionControl.map((item) => (
-          <div class="skills-container-item" key={item.name}>
-            <img src={item.imgSrc} alt={item.name} className="skills-img" data-aos="zoom-in" data-aos-duration="2000" />
-            <p className="montserrat-400-font skills-font">{item.name}</p>
-          </div>
-        ))}
-      </div>
     </div>
   );
 };
