@@ -4,33 +4,41 @@ import article1 from "../media/article1.jpeg";
 import article2 from "../media/article2.jpeg";
 import article3 from "../media/article3.jpeg";
 import article4 from "../media/article4.jpeg";
+import article5 from "../media/article5.jpeg";
 
 const articles = [
   {
     title: "Bootcamp vs. Traditional Education: My Experience and Insights",
     date: "Oct 25, 2023",
     link: "https://medium.com/@shamayal/bootcamp-vs-traditional-education-my-experience-and-insights-8648f07dcc7b",
-    image: article4,
+    image: article5,
   },
   {
     title:
       "Toronto Tech Trek: The Chronicles of My Elevate Festival Experience",
     date: "Sep 30, 2023",
     link: "https://medium.com/@shamayal/toronto-tech-trek-the-chronicles-of-my-elevate-festival-experience-51e358a22b73",
-    image: article3,
+    image: article4,
   },
   {
     title:
       "The Challenges and Triumphs of Learning to Code in a Bootcamp Setting",
     date: "Jul 31, 2023",
     link: "https://medium.com/@shamayal/the-challenges-and-triumphs-of-learning-to-code-in-a-bootcamp-setting-162ee7966c",
-    image: article2,
+    image: article3,
   },
   {
     title:
       "Navigating a Coding Bootcamp: 7 Shining Beacons of Advice to Guide you Through the Tempestuous Waters",
     date: "Jul 25, 2023",
     link: "https://medium.com/@shamayal/navigating-a-coding-bootcamp-7-shining-beacons-of-advice-to-guide-you-through-the-tempestuous-41050ae18272",
+    image: article2,
+  },
+  {
+    title:
+      "Linked Lists: A Comprehensive Introduction to a Fundamental Data Structure",
+    date: "Jun 4, 2023",
+    link: "https://medium.com/@shamayal/linked-lists-a-comprehensive-introduction-to-a-fundamental-data-structure-586d9d3f6830",
     image: article1,
   },
 ];
