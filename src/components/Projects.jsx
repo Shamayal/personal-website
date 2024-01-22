@@ -34,7 +34,15 @@ const projectObj = [
     gif: reFurnishGif,
     alt: "Re-Furnish Demo",
     techStack: [
-      "EJS", "Node.js", "Bootstrap", "JS", "Express", "SASS", "jQuery", "Ajax", "PostgreSQL",
+      "EJS",
+      "Node.js",
+      "Bootstrap",
+      "JS",
+      "Express",
+      "SASS",
+      "jQuery",
+      "Ajax",
+      "PostgreSQL",
     ],
     description:
       "A full stack, multi-page web application that allows users to browse furniture, 'like' and save listings to their favourites, and email the seller. Sellers can post and delete items for sale, and mark items as 'sold'.",
@@ -108,7 +116,9 @@ const Projects = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <button className="github-button">View on GitHub</button>
+                    <button className="montserrat-400-font">
+                      View on GitHub
+                    </button>
                   </a>
                 </div>
               </div>

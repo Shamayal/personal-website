@@ -72,9 +72,18 @@
   display: inline-block;
   background-color: white;
   color: black;
-  padding: 5px;
+  padding: 7px;
   margin: 5px;
   border-radius: 10px;
+}
+
+.project-overlay button {
+  color: white;
+  font-weight: 600;
+}
+
+.project-overlay button:hover {
+  color: black;
 }
 
 .projects-container:hover .project-overlay {
