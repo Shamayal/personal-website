@@ -17,6 +17,10 @@
   margin-right: 50px;
 }
 
+.about-text p {
+  margin-top: 0;
+}
+
 .about-container a {
   text-decoration: none;
   color: #05AECB;
