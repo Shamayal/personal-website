@@ -10,7 +10,7 @@ const About = () => {
       <div className="about-container">
         <div className="about-text">
           <p className="montserrat-600-font">
-            Hello World! I'm Shamayal Syed, a Toronto-based full-stack web
+            Hello World! I'm Shamayal Syed, a Toronto-based software
             developer. My journey began as a student researcher at the Toronto
             Rehabilitation Institute, where I focused on making technology
             accessible to people with dementia, I'm passionate about merging my
