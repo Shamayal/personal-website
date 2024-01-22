@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7eb0ee0d.css",
-    "main.js": "/static/js/main.aa0d0228.js",
+    "main.css": "/static/css/main.a4028a01.css",
+    "main.js": "/static/js/main.1d025343.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/Shamayal - Dark Mode.svg": "/static/media/Shamayal - Dark Mode.ad92b46037c956770f07d4c639d4a1e7.svg",
     "static/media/FrogFinance.gif": "/static/media/FrogFinance.9687dbbab7338d33e29e.gif",
@@ -11,18 +11,19 @@
     "static/media/AboutMePhoto.jpeg": "/static/media/AboutMePhoto.6402836625c0623151d8.jpeg",
     "static/media/Shamayal - Light Mode.svg": "/static/media/Shamayal - Light Mode.7950b6c3bab936e344f2a9f2f2726508.svg",
     "static/media/books-theUnspokenRules.jpeg": "/static/media/books-theUnspokenRules.081dd39255a7c7042dc0.jpeg",
-    "static/media/article3.jpeg": "/static/media/article3.e7201e1382a1c69745ae.jpeg",
+    "static/media/article4.jpeg": "/static/media/article4.e7201e1382a1c69745ae.jpeg",
     "static/media/books-girlsThatInvest.jpeg": "/static/media/books-girlsThatInvest.b05d54973e91de82ecfd.jpeg",
     "static/media/books-lessonsInChemistry.jpeg": "/static/media/books-lessonsInChemistry.a6d033856d027610640b.jpeg",
     "static/media/Logo Cloud Background.svg": "/static/media/Logo Cloud Background.623617f988b6be44c78557c30c46d11b.svg",
     "static/media/headshot.png": "/static/media/headshot.1ffff2649cbe2443a835.png",
-    "static/media/article4.jpeg": "/static/media/article4.325c0895355dffc43839.jpeg",
-    "static/media/article1.jpeg": "/static/media/article1.df52ea85396390b5fed6.jpeg",
+    "static/media/article5.jpeg": "/static/media/article5.325c0895355dffc43839.jpeg",
+    "static/media/article2.jpeg": "/static/media/article2.df52ea85396390b5fed6.jpeg",
     "static/media/Tweeter.gif": "/static/media/Tweeter.ee8ff761365e5093bdbd.gif",
     "static/media/TinyApp.png": "/static/media/TinyApp.8c5b66b769fbfd5f76a2.png",
     "static/media/books-atomicHabits.jpeg": "/static/media/books-atomicHabits.49a55126f8474f1cbca5.jpeg",
-    "static/media/article2.jpeg": "/static/media/article2.1ba437596cedee4433d1.jpeg",
+    "static/media/article3.jpeg": "/static/media/article3.1ba437596cedee4433d1.jpeg",
     "static/media/books-cryingInHMart.jpeg": "/static/media/books-cryingInHMart.a776e785273391b6e95e.jpeg",
+    "static/media/article1.jpeg": "/static/media/article1.34cebc38712149523e94.jpeg",
     "static/media/books-yellowface.jpeg": "/static/media/books-yellowface.a03e1bbca246f8926841.jpeg",
     "static/media/books-whenBreathBecomesAir.jpeg": "/static/media/books-whenBreathBecomesAir.c1bffded942374dce4b2.jpeg",
     "static/media/books-thisIsGoingToHurt.jpg": "/static/media/books-thisIsGoingToHurt.e8290aa6b215424af40a.jpg",
@@ -60,12 +61,12 @@
     "static/media/CSS Logo - Dark.png": "/static/media/CSS Logo - Dark.bafa1aa5ec763d3b4ad2.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.7eb0ee0d.css.map": "/static/css/main.7eb0ee0d.css.map",
-    "main.aa0d0228.js.map": "/static/js/main.aa0d0228.js.map",
+    "main.a4028a01.css.map": "/static/css/main.a4028a01.css.map",
+    "main.1d025343.js.map": "/static/js/main.1d025343.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7eb0ee0d.css",
-    "static/js/main.aa0d0228.js"
+    "static/css/main.a4028a01.css",
+    "static/js/main.1d025343.js"
   ]
 }
