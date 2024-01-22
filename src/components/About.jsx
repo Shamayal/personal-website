@@ -46,7 +46,8 @@ const About = () => {
                 <strong>Ma Ze Dar Creations</strong>
               </i>
             </a>
-            . I'm also an amateur travel photographer, and a sporadic blogger
+            . I'm also an amateur travel photographer, avid reader (feel free
+            to reach out to me with any book recommendations!) and sporadic blogger
             chronicling my coding journey.
           </p>
         </div>
