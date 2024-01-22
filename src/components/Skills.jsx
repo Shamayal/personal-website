@@ -50,12 +50,12 @@ const Skills = () => {
     { name: "React", imgSrc: ReactSkill },
     { name: "Ruby on Rails", imgSrc: RubyonRails },
     { name: "Bootstrap", imgSrc: Bootstrap },
-    { name: "Tailwind CSS", imgSrc: Tailwind },
     { name: "Express", imgSrc: Express },
     { name: "jQuery", imgSrc: jQuery },
+    { name: "Tailwind CSS", imgSrc: Tailwind },
     { name: "Sass", imgSrc: Sass },
-    { name: "Asynchronous JS And XML", imgSrc: AJAX },
-    { name: "Embedded JavaScript", imgSrc: EJS },
+    // { name: "Asynchronous JS And XML", imgSrc: AJAX },
+    // { name: "Embedded JavaScript", imgSrc: EJS },
   ];
 
   const databases = [
