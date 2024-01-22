@@ -1,6 +1,7 @@
 import "../styles/About.css";
 
-import Photo from "../media/AboutMePhoto.jpeg";
+// import Photo from "../media/AboutMePhoto.jpeg";
+import Photo from "../media/AboutMePhoto1.png";
 
 const About = () => {
   return (
@@ -10,23 +11,20 @@ const About = () => {
       <div className="about-container">
         <div className="about-text">
           <p className="montserrat-600-font">
-            Hello World! I'm Shamayal Syed, a Toronto-based software
-            developer. My journey began as a student researcher at the Toronto
+            Hello World! I'm Shamayal Syed, a Toronto-based software developer.
+            My journey began as a student researcher at the Toronto
             Rehabilitation Institute, where I focused on making technology
             accessible to people with dementia, I'm passionate about merging my
             coding skills with web accessibility principles to create impactful,
             user-friendly experiences across websites and applications.
           </p>
           <p className="montserrat-600-font">
-            Drawing from my experience in the dynamic insurance industry honed
-            my ability to quickly grasp new technologies, frameworks, and
-            programming languages – a crucial skill in the evolving field of web
-            development. My diverse background fosters adaptability, enabling me
-            to thrive in different environments. Successfully transitioning
-            between sectors, I bring a well-rounded skill set, quick acclimation
-            to new project requirements, effective collaboration with
-            cross-functional teams, and fresh insights to web development
-            projects.
+            My experience in the dynamic insurance industry honed my ability to
+            quickly grasp new technologies, frameworks, and programming
+            languages – a crucial skill in the evolving field of web
+            development. My diverse background in successfully transitioning
+            between sections fosters adaptability, enabling me to thrive in
+            different environments.
           </p>
           <p className="montserrat-600-font">
             As a junior developer, I apply my analytical skills and
@@ -46,8 +44,8 @@ const About = () => {
                 <strong>Ma Ze Dar Creations</strong>
               </i>
             </a>
-            . I'm also an amateur travel photographer, avid reader (feel free
-            to reach out to me with any book recommendations!) and sporadic blogger
+            . I'm also an amateur travel photographer, avid reader (feel free to
+            reach out to me with any book recommendations!) and sporadic blogger
             chronicling my coding journey.
           </p>
         </div>

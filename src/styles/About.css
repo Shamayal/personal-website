@@ -9,8 +9,13 @@
 }
 
 .about-container img {
+  /* from the pumpkin picture */
   height: 450px;
   border-radius: 10%;
+
+  width: 500px;
+  object-fit: cover;
+  object-position: 40%;
 }
 
 .about-text {
