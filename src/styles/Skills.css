@@ -2,11 +2,21 @@
   margin: 0px 180px;
 }
 
+.filter-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skills-button {
+  color: white;
+}
+
 .skills-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0 90px;
+  margin: 20px
 }
 
 .skills-container-item {
@@ -14,29 +24,14 @@
   flex-direction: column;
   align-items: center;
   margin: 10px;
-  width: calc(25% - 220px);
-  box-sizing: border-box;
-}
-
-.h2-container {
-  display: flex;
-  justify-content: center;
-}
-
-.h2-container h2 {
-  display: inline-block;
-  margin: 5px 0;
-  background-color: #05AECB;
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 15px;
+  width: 120px;
 }
 
 .skills-img {
-  height: 45px;
+  height: 65px;
 }
 
 .skills-font {
-  margin-top: 5px;
+  margin-top: 10px;
   text-align: center;
 }

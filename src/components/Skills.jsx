@@ -107,14 +107,14 @@ const Skills = () => {
       <h1 className="poppins-800-font">Skills</h1>
 
       <div className="filter-buttons">
-        <button onClick={() => handleFilter('all')}>All</button>
-        <button onClick={() => handleFilter('languages')}>Languages</button>
-        <button onClick={() => handleFilter('frameworks')}>Frameworks</button>
-        <button onClick={() => handleFilter('libraries')}>Libraries</button>
-        <button onClick={() => handleFilter('databases')}>Databases</button>
-        <button onClick={() => handleFilter('design')}>Design</button>
-        <button onClick={() => handleFilter('testing')}>Testing</button>
-        <button onClick={() => handleFilter('versionControl')}>Version Control</button>
+        <button className="poppins-400-font skills-button" onClick={() => handleFilter('all')}>All</button>
+        <button className="poppins-400-font skills-button" onClick={() => handleFilter('languages')}>Languages</button>
+        <button className="poppins-400-font skills-button" onClick={() => handleFilter('frameworks')}>Frameworks</button>
+        <button className="poppins-400-font skills-button" onClick={() => handleFilter('libraries')}>Libraries</button>
+        <button className="poppins-400-font skills-button" onClick={() => handleFilter('databases')}>Databases</button>
+        <button className="poppins-400-font skills-button" onClick={() => handleFilter('design')}>Design</button>
+        <button className="poppins-400-font skills-button" onClick={() => handleFilter('testing')}>Testing</button>
+        <button className="poppins-400-font skills-button" onClick={() => handleFilter('versionControl')}>Version Control</button>
       </div>
 
       <div className="skills-container">
@@ -128,14 +128,10 @@ const Skills = () => {
           ...versionControl.map(item => ({ ...item, category: 'versionControl' })),
         ]).map((item) => (
           <div className="skills-container-item" key={item.name}>
-            <img src={item.imgSrc} alt={item.name} className="skills-img" data-aos="zoom-in" data-aos-duration="2000" />
+            <img src={item.imgSrc} alt={item.name} className="skills-img" data-aos="zoom-in" data-aos-duration="1000" />
             <p className="montserrat-400-font skills-font">{item.name}</p>
           </div>
         ))}
-      </div>
-
-      <div className="h2-container">
-        <h2 className="poppins-600-font">Version Control</h2>
       </div>
     </div>
   );
