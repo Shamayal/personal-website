@@ -61,7 +61,7 @@ const Contact = () => {
 
       <form>
         <div>
-          <label htmlFor="name">Name: </label>
+          <label htmlFor="name" className="montserrat-400-font"><strong>Name:</strong></label>
           <input
             type="text"
             id="name"
@@ -72,7 +72,7 @@ const Contact = () => {
         </div>
 
         <div>
-          <label htmlFor="email">Email: </label>
+          <label htmlFor="email" className="montserrat-400-font"><strong>Email:</strong></label>
           <input
             type="email"
             id="email"
@@ -83,7 +83,7 @@ const Contact = () => {
         </div>
 
         <div>
-          <label htmlFor="message">Message: </label>
+          <label htmlFor="message" className="montserrat-400-font"><strong>Message:</strong></label>
           <textarea
             id="message"
             name="message"
@@ -92,7 +92,7 @@ const Contact = () => {
           />
         </div>
 
-        <button type="submit" onClick={handleSubmit}>
+        <button type="submit" onClick={handleSubmit} className="montserrat-400-font contact-button">
           Submit
         </button>
       </form>

@@ -83,12 +83,10 @@ textarea:focus {
 
 button {
   background-color: #05AECB;
-  color: white;
   padding: 10px 15px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 16px;
 }
 
 button:hover {
@@ -96,3 +94,8 @@ button:hover {
   color: black;
 }
 
+.contact-button {
+  color: white;
+  font-weight: 600;
+  margin-top: 2%;
+}
