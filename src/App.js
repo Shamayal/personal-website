@@ -34,11 +34,11 @@ function App() {
 
           <Route path="/blog" element={<Blog />} />
 
-          <Route path="/hobbies/photography/food" element={<Books />} />
+          {/* <Route path="/hobbies/photography/food" element={<Books />} />
 
-          <Route path="/hobbies/photography/travel" element={<Books />} />
+          <Route path="/hobbies/photography/travel" element={<Books />} /> */}
 
-          <Route path="/hobbies/books" element={<Books />} />
+          <Route path="/books" element={<Books />} />
 
           <Route path="/contact" element={<Contact />} />
 
