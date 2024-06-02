@@ -20,16 +20,16 @@ const Books = () => {
     {
       month: "May",
       year: 2024,
-      book: "When Breath Becomes Air",
+      book: "Love From A to Z",
       author: "Paul Kalanithi",
-      genre: "Memoir",
+      genre: "Romance",
       cover: <img src={Dec2023} />,
       review: "Philosophical",
     },
     {
       month: "April",
       year: 2024,
-      book: "When Breath Becomes Air",
+      book: "insert name",
       author: "Paul Kalanithi",
       genre: "Memoir",
       cover: <img src={Dec2023} />,
@@ -38,7 +38,7 @@ const Books = () => {
     {
       month: "March",
       year: 2024,
-      book: "When Breath Becomes Air",
+      book: "insert name",
       author: "Paul Kalanithi",
       genre: "Memoir",
       cover: <img src={Dec2023} />,
@@ -47,7 +47,7 @@ const Books = () => {
     {
       month: "February",
       year: 2024,
-      book: "When Breath Becomes Air",
+      book: "insert name",
       author: "Paul Kalanithi",
       genre: "Memoir",
       cover: <img src={Dec2023} />,
@@ -56,7 +56,7 @@ const Books = () => {
     {
       month: "January",
       year: 2024,
-      book: "When Breath Becomes Air",
+      book: "insert name",
       author: "Paul Kalanithi",
       genre: "Memoir",
       cover: <img src={Dec2023} />,
