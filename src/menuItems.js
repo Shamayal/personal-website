@@ -15,10 +15,14 @@ export const menuItems = [
     title: "Blog",
     url: "/blog",
   },
+  {
+    title: "Book Reviews",
+    url: "/books"
+  },
   // {
-  //   title: "Hobbies", // need to fix, this is bold for some reason
-  //   url: "", // does this need a url?
-  //   submenu: [ // change these names
+  //   title: "Photography", // need to fix, this is bold for some reason
+  //   url: "",
+  //   submenu: [
   //     {
   //       title: "Photography",
   //       submenu: [
