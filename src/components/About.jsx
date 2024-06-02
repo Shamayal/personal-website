@@ -11,23 +11,14 @@ const About = () => {
       <div className="about-container">
         <div className="about-text">
           <p className="montserrat-600-font">
-            Hello World! I'm Shamayal Syed, a Toronto-based software developer
-            with a passion for creating impactful user-friendly experiences
-            through coding and accessibility. My journey began as a qualitative
-            researcher at the Toronto Rehabilitation Institute, where I delved
-            into making technology accessible to people with dementia.
+            Hello World! 👋 I'm Shamayal Syed, a Toronto-based software developer
+            with a background in Human and Cell Biology.
           </p>
           <p className="montserrat-600-font">
-            My diverse background includes a short period working in the dynamic
-            insurance industry which honed my ability to quickly grasp new
-            technologies, frameworks, and programming languages – a crucial
-            skill in the evolving field of web development.
+            At the Toronto Rehabilitation Institute, I studied the impacts of technology on people with dementia. This experience reignited my interest in coding and motivated me to improve my skills so I can contribute to projects that apply web accessibility principles to create impactful, user-friendly experiences across websites and applications.
           </p>
           <p className="montserrat-600-font">
-            Now as a junior developer, I apply my analytical skills and
-            problem-solving abilities to create innovative solutions. I am
-            actively committed to advancing my skills and expanding my knowledge
-            on my career in software development.
+            As a Junior Developer, I'm eager to embrace new challenges and committed to being a lifelong learner. By continuously expanding my skill set, I aim to apply my analytical skills and problem-solving abilities to create innovative solutions, contribute effectively to team objectives, and grow in my tech career.
           </p>
 
           <p className="montserrat-600-font">
@@ -41,13 +32,12 @@ const About = () => {
                 <strong>Ma Ze Dar Creations</strong>
               </i>
             </a>
-            . I'm also an amateur travel photographer, avid reader, and sporadic
-            blogger chronicling my coding journey.
+            . I'm also an avid reader, sporadic blogger chronicling my coding journey, and an amateur travel photographer capturing moments from my hiking adventures.
           </p>
           <p className="montserrat-600-font">
             If you're curious to learn more about my coding journey, explore my
-            portfolio or connect with me on social media. I'm always open to
-            book recommendations and conversations!
+            portfolio or connect with me on LinkedIn. I'm always open to
+            book recommendations and insighful conversations!
           </p>
         </div>
         <div>
