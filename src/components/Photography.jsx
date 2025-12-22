@@ -17,6 +17,7 @@ const Photography = () => {
       <h3 className="poppins-600-font">Alberta 2023</h3>
       <h3 className="poppins-600-font">British Columbia 2023</h3>
       <h3 className="poppins-600-font">Newfoundland 2024</h3>
+      <h3 className="poppins-600-font">New York City 2025</h3>
     </div>
   );
 };
