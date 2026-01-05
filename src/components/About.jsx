@@ -11,14 +11,13 @@ const About = () => {
       <div className="about-container">
         <div className="about-text">
           <p className="montserrat-600-font">
-            Hello World! 👋 I'm Shamayal Syed, a Toronto-based software developer
-            with a background in Human and Cell Biology.
+            Hello World! 👋 I'm Shamayal Syed, a Toronto-based software developer.
           </p>
-          <p className="montserrat-600-font">
+          {/* <p className="montserrat-600-font">
             At the Toronto Rehabilitation Institute, I studied the impacts of technology on people with dementia. This experience reignited my interest in coding and motivated me to improve my skills so I can contribute to projects that apply web accessibility principles to create impactful, user-friendly experiences across websites and applications.
-          </p>
+          </p> */}
           <p className="montserrat-600-font">
-            As a Junior Developer, I'm eager to embrace new challenges and committed to being a lifelong learner. By continuously expanding my skill set, I aim to apply my analytical skills and problem-solving abilities to create innovative solutions, contribute effectively to team objectives, and grow in my tech career.
+             I'm eager to embrace new challenges and committed to being a lifelong learner. By continuously expanding my skill set, I aim to apply my analytical skills and problem-solving abilities to create innovative solutions, contribute effectively to team objectives, and grow in my tech career.
           </p>
 
           <p className="montserrat-600-font">
