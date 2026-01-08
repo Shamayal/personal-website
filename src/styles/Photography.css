@@ -1,0 +1,17 @@
+#photography {
+  margin: 80px 100px;
+}
+
+.photography-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.photography-container img {
+  height: 500px;
+  border-radius: 10%;
+}
+
+.photography-text {
+  margin-right: 50px;
+}
