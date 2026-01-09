@@ -1,6 +1,5 @@
 import "../styles/About.css";
 
-// import Photo from "../media/AboutMePhoto.jpeg";
 import Photo from "../media/AboutMePhoto1.png";
 
 const About = () => {
