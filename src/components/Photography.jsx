@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import Calendar from 'react-calendar';
+// import carousel
 import "../styles/Photography.css";
 
 import Dec2023 from "../media/books-whenBreathBecomesAir.jpeg";
